@@ -1,0 +1,113 @@
+﻿converted_war_strategies_X01 = {
+	enable = {
+		tag = X01
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 3090
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X27"
+		value = 584
+	}
+}
+
+converted_diplo_strategies_X01 = {
+	enable = {
+		tag = X01
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 262
+	}
+	ai_strategy = {
+		type = contain
+		id = "NEP"
+		value = 262
+	}
+	ai_strategy = {
+		type = contain
+		id = "TIB"
+		value = 254
+	}
+	ai_strategy = {
+		type = contain
+		id = "X14"
+		value = 150
+	}
+	ai_strategy = {
+		type = contain
+		id = "X06"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "X12"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "X21"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "X23"
+		value = 125
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X27"
+		value = 52
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "NEP"
+		value = 17
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X27"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BRM"
+		value = 70
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X29"
+		value = 14
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BHU"
+		value = 3
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "NEP"
+		value = 91
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X30"
+		value = 48
+	}
+}

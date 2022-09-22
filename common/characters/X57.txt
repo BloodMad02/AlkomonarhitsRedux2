@@ -1,0 +1,16 @@
+characters={
+	X57_aiin_ayaen={
+		name=X57_aiin_ayaen
+		portraits={
+			civilian={
+				large="gfx/leaders/Western_European/Portrait_USA_Happy_Chandler.tga"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

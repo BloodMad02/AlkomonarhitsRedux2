@@ -1,0 +1,33 @@
+
+state={
+	id=44
+	name="STATE_44"
+
+	history={
+		owner = CAT
+		victory_points = {
+			9853 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			9853 = {
+				naval_base = 2
+			}
+			air_base = 6
+
+		}
+		add_core_of = CAT
+		add_core_of = FRA
+	}
+
+	provinces={
+		6915 9853 
+	}
+	manpower=135176
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

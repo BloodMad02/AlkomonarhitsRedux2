@@ -1,0 +1,33 @@
+
+state={
+	id=262
+	name="STATE_262"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = X45
+		victory_points = {
+			4889 10 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X45
+		add_claim_by = NGA
+	}
+
+	provinces={
+		4889 8109 10820 
+	}
+	manpower=5713920
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

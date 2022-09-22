@@ -1,0 +1,64 @@
+characters={
+	IRE_aaae_i'aiaa0oe={
+		name=IRE_aaae_i'aiaa0oe
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	IRE_iao0ee_aiiiaeee={
+		name=IRE_iao0ee_aiiiaeee
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	IRE_e0enoioa0_eina0aea={
+		name=IRE_e0enoioa0_eina0aea
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	IRE_yaaa0a_iaeeaoe={
+		name=IRE_yaaa0a_iaeeaoe
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	IRE_ayieye_ea0eei={
+		name=IRE_ayieye_ea0eei
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

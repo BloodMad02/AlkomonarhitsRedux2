@@ -1,0 +1,64 @@
+characters={
+	CAT_aeaenaia0a_ai00ae={
+		name=CAT_aeaenaia0a_ai00ae
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	CAT_aaeaoa_aanioeieu={
+		name=CAT_aaeaoa_aanioeieu
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	CAT_oaeei_e0ea={
+		name=CAT_oaeei_e0ea
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	CAT_aia0ao_i0ao={
+		name=CAT_aia0ao_i0ao
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	CAT_aaaea_eea0aioio={
+		name=CAT_aaaea_eea0aioio
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/portrait_south_america_generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

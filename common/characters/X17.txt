@@ -1,0 +1,64 @@
+characters={
+	X17_oa0oa_aoaooe={
+		name=X17_oa0oa_aoaooe
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X17_oaoao_aoaooe={
+		name=X17_oaoao_aoaooe
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X17_aaaaaiaea_eoiaa0={
+		name=X17_aaaaaiaea_eoiaa0
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X17_oaeyo_eaaei={
+		name=X17_oaeyo_eaaei
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	X17_na0aa0_o0_daoiai={
+		name=X17_na0aa0_o0_daoiai
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_DEH_Muhammad_Ali_Jinnah.tga"
+			}
+		}
+		country_leader={
+			ideology=leninism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=40
+	name="STATE_40"
+
+	history={
+		owner = BRM
+		victory_points = {
+			1330 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			1330 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = BRM
+	}
+
+	provinces={
+		1330 1417 4293 4336 7254 7382 7441 10154 10223 10267 12127 12197 12256 12267 
+	}
+	manpower=812292
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

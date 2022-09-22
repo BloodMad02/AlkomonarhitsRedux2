@@ -1,0 +1,34 @@
+
+state={
+	id=6
+	name="STATE_6"
+
+	history={
+		owner = ALB
+		victory_points = {
+			9875 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			9914 = {
+				naval_base = 8
+			}
+			air_base = 6
+
+		}
+		add_core_of = ALB
+		add_claim_by = TUR
+	}
+
+	provinces={
+		914 3448 3884 3896 6900 9780 9875 9914 11762 11767 13234 13235 
+	}
+	manpower=1185424
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

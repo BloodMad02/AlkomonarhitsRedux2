@@ -1,0 +1,16 @@
+characters={
+	X53_ia0ei_a0aaa={
+		name=X53_ia0ei_a0aaa
+		portraits={
+			civilian={
+				large="gfx/leaders/BOL/Portrait_Bolivia_Jose_Luis_Tejada_Sorzano.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

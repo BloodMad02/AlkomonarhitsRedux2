@@ -1,0 +1,76 @@
+characters={
+	BRA_ea0eoo_a0an={
+		name=BRA_ea0eoo_a0an
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRA_oina_oaaa0an={
+		name=BRA_oina_oaaa0an
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRA_oei0eaii_eiian={
+		name=BRA_oei0eaii_eiian
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRA_oiaeei_aa_eiooa={
+		name=BRA_oiaeei_aa_eiooa
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRA_oiaeei_aa_no0oo={
+		name=BRA_oiaeei_aa_no0oo
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=4
+			legacy_id=0
+		}
+	}
+
+	BRA_enaoan_aa_a0aaaica={
+		name=BRA_enaoan_aa_a0aaaica
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

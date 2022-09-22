@@ -1,0 +1,29 @@
+
+state={
+	id=64
+	name="STATE_64"
+
+	history={
+		owner = CHI
+		victory_points = {
+			2045 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		1257 2045 4375 4403 5193 9966 10132 10787 10817 10903 
+	}
+	manpower=3891492
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

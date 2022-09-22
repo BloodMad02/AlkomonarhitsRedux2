@@ -1,0 +1,76 @@
+characters={
+	X34_oina_ia0ey_ee0in={
+		name=X34_oina_ia0ey_ee0in
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	X34_oanon_aa00eai={
+		name=X34_oanon_aa00eai
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X34_0eiai_oeaa0ia={
+		name=X34_0eiai_oeaa0ia
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X34_oanon_nioi={
+		name=X34_oanon_nioi
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X34_aia0en_aa00eai={
+		name=X34_aia0en_aa00eai
+		navy_leader={
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X34_iiioeaii_ei00ae={
+		name=X34_iiioeaii_ei00ae
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/portrait_hai_stenio_vincent.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

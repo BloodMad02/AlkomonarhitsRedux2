@@ -1,0 +1,64 @@
+characters={
+	COL_daeioiai_daean={
+		name=COL_daeioiai_daean
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	COL_ea0ein_dioan={
+		name=COL_ea0ein_dioan
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	COL_aeeua0ii_diaean={
+		name=COL_aeeua0ii_diaean
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	COL_oaaai_a0aieaaa={
+		name=COL_oaaai_a0aieaaa
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	COL_aiieiai_aeeeuaaan={
+		name=COL_aiieiai_aeeeuaaan
+		portraits={
+			civilian={
+				large="gfx/leaders/BRA/Portrait_Brazil_Plinio_Salgado.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

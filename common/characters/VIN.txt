@@ -1,0 +1,52 @@
+characters={
+	VIN_aoe_ai_oiia={
+		name=VIN_aoe_ai_oiia
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	VIN_oii_ooao_aeia_nai={
+		name=VIN_oii_ooao_aeia_nai
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	VIN_iaoeai_iooio_iuai_eai={
+		name=VIN_iaoeai_iooio_iuai_eai
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	VIN_iaoeai_iuai_o0eio={
+		name=VIN_iaoeai_iuai_o0eio
+		portraits={
+			civilian={
+				large="gfx/leaders/Indo_Chinese_Nesia/Portrait_Cambodia_Sisowath_Monivong.tga"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

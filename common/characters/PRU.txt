@@ -1,0 +1,76 @@
+characters={
+	PRU_iao0eoei_aoeian={
+		name=PRU_iao0eoei_aoeian
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PRU_aia0aan_aaeuca={
+		name=PRU_aia0aan_aaeuca
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PRU_aaaea_naioa_ia0ey={
+		name=PRU_aaaea_naioa_ia0ey
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PRU_o0aioenei_nioiiaei0={
+		name=PRU_o0aioenei_nioiiaei0
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PRU_aeaai_caiaoa={
+		name=PRU_aeaai_caiaoa
+		navy_leader={
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	PRU_ooai_oeaa0ia={
+		name=PRU_ooai_oeaa0ia
+		portraits={
+			civilian={
+				large="gfx/leaders/Mediterranean/Portrait_Alfonso_XIII.tga"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

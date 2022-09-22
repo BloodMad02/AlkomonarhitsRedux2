@@ -1,0 +1,76 @@
+characters={
+	UKR_ai0en_daa0aiei={
+		name=UKR_ai0en_daa0aiei
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UKR_oaai0_a0aeia={
+		name=UKR_oaai0_a0aeia
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UKR_00ee_eaionoyineee={
+		name=UKR_00ee_eaionoyineee
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UKR_oaai0_eaaiaiei={
+		name=UKR_oaai0_eaaiaiei
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UKR_iaaae_oeiioaiei={
+		name=UKR_iaaae_oeiioaiei
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	UKR_a0eai0ee_eaaiaiei={
+		name=UKR_a0eai0ee_eaaiaiei
+		portraits={
+			civilian={
+				large="gfx/leaders/Eastern_European/Portrait_Belarus_Vladimir_I.tga"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

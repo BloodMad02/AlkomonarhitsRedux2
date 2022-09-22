@@ -1,0 +1,53 @@
+units = {
+	fleet = {
+		name = "3. ýñêàäðà"
+		naval_base = 979
+		task_force = {
+			name = "3. ýñêàäðà"
+			location = 979
+			ship = { name = "Ñòàìáóë" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Ñòàìáóë 2" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Áóðñà" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Èçìèð" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Áóðñà 2" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Ñòàìáóë 3" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Èçìèð 2" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Áóðñà 3" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Ñòàìáóë 4" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Áóðñà 4" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Áóðñà 5" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Ìóàâàíåò-è-Ìèëëèå" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Êîäæàòåïå" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Àäàòåïå" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Àáäóë-Ãàìèä" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Ìåäæèäèå" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Ìóêàääåì-è-Õàéèð" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Ìåõìåä Ñåëèì" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Áåðêåôñàí" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Òàéÿð" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Ëóòô-è-Õóìàþí" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+			ship = { name = "Ñàìñóí" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TUR } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "TUR"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "TUR"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

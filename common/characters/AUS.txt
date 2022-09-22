@@ -1,0 +1,76 @@
+characters={
+	AUS_eioa0u_oaeua={
+		name=AUS_eioa0u_oaeua
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	AUS_ooaoai_oii_aa0_oaii={
+		name=AUS_ooaoai_oii_aa0_oaii
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	AUS_aeeoi0_oiooiaii={
+		name=AUS_aeeoi0_oiooiaii
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	AUS_yaaa0a_oaeeuiae={
+		name=AUS_yaaa0a_oaeeuiae
+		navy_leader={
+			skill=3
+			attack_skill=5
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	AUS_aaieuo_ooieuoa0={
+		name=AUS_aaieuo_ooieuoa0
+		navy_leader={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	AUS_eioa0u_ia0aaioaea0={
+		name=AUS_eioa0u_ia0aaioaea0
+		portraits={
+			civilian={
+				large="gfx/leaders/Western_European/Portrait_Germany_Wilhelm_II.tga"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

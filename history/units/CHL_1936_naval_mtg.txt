@@ -1,0 +1,29 @@
+units = {
+	fleet = {
+		name = "1. ýñêàäðà"
+		naval_base = 11000
+		task_force = {
+			name = "1. ýñêàäðà"
+			location = 11000
+			ship = { name = "Àëüìèðàíòå Êîíäåëëë" definition = destroyer start_experience_factor = 0.0495 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "Àëüìèðàíòå Ëèí÷" definition = destroyer start_experience_factor = 0.04985 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "Àêèëåñ" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "Àíãàìîñ" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "×èïàíà" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+			ship = { name = "Êàñìà" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "CHL"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

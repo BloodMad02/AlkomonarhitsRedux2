@@ -1,0 +1,64 @@
+characters={
+	X32_daeyeoe_e00aa0={
+		name=X32_daeyeoe_e00aa0
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X32_oaia0ee_aa_ea_dae={
+		name=X32_oaia0ee_aa_ea_dae
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X32_neia0_aaoaa0o={
+		name=X32_neia0_aaoaa0o
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X32_aia0en_aa_ea_dae={
+		name=X32_aia0en_aa_ea_dae
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X32_oaia0ee_aai_dainao0a={
+		name=X32_oaia0ee_aai_dainao0a
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/portrait_fra_leon_blum.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

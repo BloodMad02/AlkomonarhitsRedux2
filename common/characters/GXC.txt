@@ -1,0 +1,76 @@
+characters={
+	GXC_oaaia_0ai={
+		name=GXC_oaaia_0ai
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GXC_ea_o0eao={
+		name=GXC_ea_o0eao
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=5
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GXC_ea_ioa0={
+		name=GXC_ea_ioa0
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GXC_eaie_0ai={
+		name=GXC_eaie_0ai
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GXC_aa_ooo={
+		name=GXC_aa_ooo
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	GXC_eaie_oao={
+		name=GXC_eaie_oao
+		portraits={
+			civilian={
+				large="gfx/leaders/SIA/Portrait_Siam_Phraya_Phahon.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

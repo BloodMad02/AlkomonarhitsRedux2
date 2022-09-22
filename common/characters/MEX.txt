@@ -1,0 +1,76 @@
+characters={
+	MEX_aa0ia0ai_na0aaina={
+		name=MEX_aa0ia0ai_na0aaina
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MEX_aaaono_aeeuy={
+		name=MEX_aaaono_aeeuy
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MEX_aeuaa0i_iaoea={
+		name=MEX_aeuaa0i_iaoea
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MEX_o0aioenei_oaaua0_aa00a0i={
+		name=MEX_o0aioenei_oaaua0_aa00a0i
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MEX_oina_aeuiiioa={
+		name=MEX_oina_aeuiiioa
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	MEX_oiian_naiaoa={
+		name=MEX_oiian_naiaoa
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/portrait_col_alfonso_lopez_pumarejo.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

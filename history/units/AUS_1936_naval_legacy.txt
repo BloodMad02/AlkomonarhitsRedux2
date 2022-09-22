@@ -1,0 +1,120 @@
+units = {
+	fleet = {
+		name = "11. ýñêàäðà"
+		naval_base = 6626
+		task_force = {
+			name = "11. ýñêàäðà"
+			location = 6626
+			ship = { name = "Õåêøòàäò" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ôàëüêå" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Íàóòèëóñ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Àëüáàòðîñ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ëèêà" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ôðóíäñáåðã" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ñàéäà" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ïðèíöèïåññå Àóãóñòà" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òðèåñò" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Àóñòðèÿ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ìàðèÿ-Òåðåçèÿ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òðèåñò 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Àäëåð" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òðèåñò 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äåëüôèí" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Øâàðöåíáåðã" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ãåëüãîëàíä" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òðèåñò 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ñåíüÿ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òðèåñò 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ñåíüÿ 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òðèåñò 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òðèåñò 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òðèåñò 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ñåíüÿ 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ñåíüÿ 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ñåíüÿ 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òðèåñò 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òðèåñò 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òîëèàðà" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òîëèàðà 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äîíàó" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ëàêðîìà" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ïðèíöèïåññå Àóãóñòà 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òîëèàðà 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òîëèàðà 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òîëèàðà 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òîëèàðà 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òîëèàðà 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òîëèàðà 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òîëèàðà 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òîëèàðà 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Àíòñèðàíàíà" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Àíòñèðàíàíà 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Àíòñèðàíàíà 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Àíòñèðàíàíà 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Àíòñèðàíàíà 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ñåíüÿ 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ñåíüÿ 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ñåíüÿ 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ñåíüÿ 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ñåíüÿ 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 15" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 17" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 19" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ñåíüÿ 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ñåíüÿ 12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òðèåñò 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òðèåñò 12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Òðèåñò 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ñåíüÿ 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Ñåíüÿ 14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+		}
+	}
+	fleet = {
+		name = "2. ýñêàäðà"
+		naval_base = 6889
+		task_force = {
+			name = "2. ýñêàäðà"
+			location = 6889
+			ship = { name = "Ñåíüÿ 28" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 20" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+			ship = { name = "Äóáðîâíèê 21" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AUS } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "AUS"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "AUS"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

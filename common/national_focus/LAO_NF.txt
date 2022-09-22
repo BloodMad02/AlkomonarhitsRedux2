@@ -1,0 +1,1047 @@
+focus_tree = {
+	id = LAO_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = LAO
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = border_disputesLAOSIA
+		icon = GFX_goal_generic_more_territorial_claims
+		text = border_disputesSIA
+		x = 24
+		y = 0
+		cost = 10
+		available = {
+			date > 1938.12.7
+			is_subject = no
+			has_war = no
+			SIA = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 536
+			}
+		}
+		completion_reward = {
+			add_war_support = 0.05
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = SIA value > 0 }
+			}
+			modifier = {
+				factor = 0
+				SIA = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = SIA
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				date < 1938.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.25
+				date < 1939.4.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.4
+				date < 1939.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.5
+			}
+			modifier = {
+				factor = 2
+				SIA = { surrender_progress > 0.2 }
+			}
+		}
+	}
+
+	focus = {
+		id = assert_claimsLAOSIA
+		icon = GFX_goal_generic_territory_or_war
+		text = assert_claimsSIA
+		prerequisite = { focus = border_disputesLAOSIA }
+		x = 0
+		y = 1
+		relative_position_id = border_disputesLAOSIA
+		cost = 10
+		available = {
+			date > 1938.12.7
+			is_subject = no
+			has_war = no
+			SIA = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 536
+			}
+		}
+		completion_reward = {
+			add_state_claim = 536
+			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+			hidden_effect = {
+				SIA = { country_event = { id = reconquest_news.1 } }
+			}
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = SIA value > 0 }
+			}
+			modifier = {
+				factor = 0
+				SIA = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = SIA
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				date < 1938.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.25
+				date < 1939.4.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.4
+				date < 1939.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.5
+			}
+			modifier = {
+				factor = 2
+				SIA = { surrender_progress > 0.2 }
+			}
+		}
+	}
+
+	focus = {
+		id = prepare_for_warLAOSIA
+		icon = GFX_goal_generic_position_armies
+		text = prepare_for_warSIA
+		prerequisite = { focus = assert_claimsLAOSIA }
+		bypass = {
+			has_war_with = SIA
+		}
+		x = 0
+		y = 1
+		relative_position_id = assert_claimsLAOSIA
+		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+			SIA = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 536
+			}
+		}
+		completion_reward = {
+			add_manpower = 10000
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	focus = {
+		id = neighbor_warLAOSIA
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = neighbor_warSIA
+		prerequisite = { focus = prepare_for_warLAOSIA }
+		bypass = {
+			has_war_with = SIA
+		}
+		x = 0
+		y = 1
+		relative_position_id = prepare_for_warLAOSIA
+		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+			SIA = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 536
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = SIA
+				type = take_state_focus
+				generator = { 536 }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	focus = {
+		id = border_disputesLAOVIN
+		icon = GFX_goal_generic_more_territorial_claims
+		text = border_disputesVIN
+		x = 26
+		y = 0
+		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+			VIN = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 82
+			}
+		}
+		completion_reward = {
+			add_war_support = 0.05
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = VIN value > 0 }
+			}
+			modifier = {
+				factor = 0
+				VIN = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = VIN
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				date < 1938.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.25
+				date < 1939.4.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.4
+				date < 1939.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.5
+			}
+			modifier = {
+				factor = 2
+				VIN = { surrender_progress > 0.2 }
+			}
+		}
+	}
+
+	focus = {
+		id = assert_claimsLAOVIN
+		icon = GFX_goal_generic_territory_or_war
+		text = assert_claimsVIN
+		prerequisite = { focus = border_disputesLAOVIN }
+		x = 0
+		y = 1
+		relative_position_id = border_disputesLAOVIN
+		cost = 10
+		available = {
+			date > 1938.11.1
+			is_subject = no
+			has_war = no
+			VIN = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 82
+			}
+		}
+		completion_reward = {
+			add_state_claim = 82
+			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+			hidden_effect = {
+				VIN = { country_event = { id = reconquest_news.1 } }
+			}
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = VIN value > 0 }
+			}
+			modifier = {
+				factor = 0
+				VIN = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = VIN
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				date < 1938.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.25
+				date < 1939.4.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.4
+				date < 1939.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.5
+			}
+			modifier = {
+				factor = 2
+				VIN = { surrender_progress > 0.2 }
+			}
+		}
+	}
+
+	focus = {
+		id = prepare_for_warLAOVIN
+		icon = GFX_goal_generic_position_armies
+		text = prepare_for_warVIN
+		prerequisite = { focus = assert_claimsLAOVIN }
+		bypass = {
+			has_war_with = VIN
+		}
+		x = 0
+		y = 1
+		relative_position_id = assert_claimsLAOVIN
+		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+			VIN = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 82
+			}
+		}
+		completion_reward = {
+			add_manpower = 10000
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	focus = {
+		id = neighbor_warLAOVIN
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = neighbor_warVIN
+		prerequisite = { focus = prepare_for_warLAOVIN }
+		bypass = {
+			has_war_with = VIN
+		}
+		x = 0
+		y = 1
+		relative_position_id = prepare_for_warLAOVIN
+		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+			VIN = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 82
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = VIN
+				type = take_state_focus
+				generator = { 82 }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	focus = {
+		id = border_disputesLAOUSA
+		icon = GFX_goal_generic_more_territorial_claims
+		text = border_disputesUSA
+		x = 28
+		y = 0
+		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+			USA = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 603
+			}
+		}
+		completion_reward = {
+			add_war_support = 0.05
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = USA value > 0 }
+			}
+			modifier = {
+				factor = 0
+				USA = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = USA
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				date < 1938.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.25
+				date < 1939.4.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.4
+				date < 1939.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.5
+			}
+			modifier = {
+				factor = 2
+				USA = { surrender_progress > 0.2 }
+			}
+		}
+	}
+
+	focus = {
+		id = assert_claimsLAOUSA
+		icon = GFX_goal_generic_territory_or_war
+		text = assert_claimsUSA
+		prerequisite = { focus = border_disputesLAOUSA }
+		x = 0
+		y = 1
+		relative_position_id = border_disputesLAOUSA
+		cost = 10
+		available = {
+			date > 1937.12.1
+			is_subject = no
+			has_war = no
+			USA = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 603
+			}
+		}
+		completion_reward = {
+			add_state_claim = 603
+			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+			hidden_effect = {
+				USA = { country_event = { id = reconquest_news.1 } }
+			}
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = USA value > 0 }
+			}
+			modifier = {
+				factor = 0
+				USA = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = USA
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				date < 1938.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.25
+				date < 1939.4.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.4
+				date < 1939.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.5
+			}
+			modifier = {
+				factor = 2
+				USA = { surrender_progress > 0.2 }
+			}
+		}
+	}
+
+	focus = {
+		id = prepare_for_warLAOUSA
+		icon = GFX_goal_generic_position_armies
+		text = prepare_for_warUSA
+		prerequisite = { focus = assert_claimsLAOUSA }
+		bypass = {
+			has_war_with = USA
+		}
+		x = 0
+		y = 1
+		relative_position_id = assert_claimsLAOUSA
+		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+			USA = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 603
+			}
+		}
+		completion_reward = {
+			add_manpower = 10000
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	focus = {
+		id = neighbor_warLAOUSA
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = neighbor_warUSA
+		prerequisite = { focus = prepare_for_warLAOUSA }
+		bypass = {
+			has_war_with = USA
+		}
+		x = 0
+		y = 1
+		relative_position_id = prepare_for_warLAOUSA
+		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+			USA = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 603
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = USA
+				type = take_state_focus
+				generator = { 603 }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	focus = {
+		id = border_disputesLAOYUN
+		icon = GFX_goal_generic_more_territorial_claims
+		text = border_disputesYUN
+		x = 30
+		y = 0
+		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+			YUN = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 661
+			}
+		}
+		completion_reward = {
+			add_war_support = 0.05
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = YUN value > 0 }
+			}
+			modifier = {
+				factor = 0
+				YUN = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = YUN
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				date < 1938.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.25
+				date < 1939.4.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.4
+				date < 1939.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.5
+			}
+			modifier = {
+				factor = 2
+				YUN = { surrender_progress > 0.2 }
+			}
+		}
+	}
+
+	focus = {
+		id = assert_claimsLAOYUN
+		icon = GFX_goal_generic_territory_or_war
+		text = assert_claimsYUN
+		prerequisite = { focus = border_disputesLAOYUN }
+		x = 0
+		y = 1
+		relative_position_id = border_disputesLAOYUN
+		cost = 10
+		available = {
+			date > 1937.10.1
+			is_subject = no
+			has_war = no
+			YUN = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 661
+			}
+		}
+		completion_reward = {
+			add_state_claim = 661
+			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+			hidden_effect = {
+				YUN = { country_event = { id = reconquest_news.1 } }
+			}
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = YUN value > 0 }
+			}
+			modifier = {
+				factor = 0
+				YUN = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = YUN
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				date < 1938.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.25
+				date < 1939.4.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.4
+				date < 1939.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.5
+			}
+			modifier = {
+				factor = 2
+				YUN = { surrender_progress > 0.2 }
+			}
+		}
+	}
+
+	focus = {
+		id = prepare_for_warLAOYUN
+		icon = GFX_goal_generic_position_armies
+		text = prepare_for_warYUN
+		prerequisite = { focus = assert_claimsLAOYUN }
+		bypass = {
+			has_war_with = YUN
+		}
+		x = 0
+		y = 1
+		relative_position_id = assert_claimsLAOYUN
+		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+			YUN = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 661
+			}
+		}
+		completion_reward = {
+			add_manpower = 10000
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	focus = {
+		id = neighbor_warLAOYUN
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = neighbor_warYUN
+		prerequisite = { focus = prepare_for_warLAOYUN }
+		bypass = {
+			has_war_with = YUN
+		}
+		x = 0
+		y = 1
+		relative_position_id = prepare_for_warLAOYUN
+		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+			YUN = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 661
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = YUN
+				type = take_state_focus
+				generator = { 661 }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	focus = {
+		id = border_disputesLAOCAM
+		icon = GFX_goal_generic_more_territorial_claims
+		text = border_disputesCAM
+		x = 32
+		y = 0
+		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+			CAM = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 43
+			}
+		}
+		completion_reward = {
+			add_war_support = 0.05
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = CAM value > 0 }
+			}
+			modifier = {
+				factor = 0
+				CAM = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = CAM
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				date < 1938.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.25
+				date < 1939.4.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.4
+				date < 1939.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.5
+			}
+			modifier = {
+				factor = 2
+				CAM = { surrender_progress > 0.2 }
+			}
+		}
+	}
+
+	focus = {
+		id = assert_claimsLAOCAM
+		icon = GFX_goal_generic_territory_or_war
+		text = assert_claimsCAM
+		prerequisite = { focus = border_disputesLAOCAM }
+		x = 0
+		y = 1
+		relative_position_id = border_disputesLAOCAM
+		cost = 10
+		available = {
+			date > 1939.7.1
+			is_subject = no
+			has_war = no
+			CAM = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 43
+			}
+		}
+		completion_reward = {
+			add_state_claim = 43
+			add_named_threat = { threat = 3 name = neighbor_war_NF_threat }
+			hidden_effect = {
+				CAM = { country_event = { id = reconquest_news.1 } }
+			}
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				OR = {
+					has_government = democratic
+					has_government = neutrality
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = { target = CAM value > 0 }
+			}
+			modifier = {
+				factor = 0
+				CAM = { in_weak_faction = no }
+			}
+			modifier = {
+				factor = 0
+				any_country = {
+					has_subject = CAM
+					in_weak_faction = no
+				}
+			}
+			modifier = {
+				factor = 0
+				date < 1938.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.25
+				date < 1939.4.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.4
+				date < 1939.8.1
+			}
+			modifier = {
+				factor = 0
+				threat > 0.5
+			}
+			modifier = {
+				factor = 2
+				CAM = { surrender_progress > 0.2 }
+			}
+		}
+	}
+
+	focus = {
+		id = prepare_for_warLAOCAM
+		icon = GFX_goal_generic_position_armies
+		text = prepare_for_warCAM
+		prerequisite = { focus = assert_claimsLAOCAM }
+		bypass = {
+			has_war_with = CAM
+		}
+		x = 0
+		y = 1
+		relative_position_id = assert_claimsLAOCAM
+		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+			CAM = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 43
+			}
+		}
+		completion_reward = {
+			add_manpower = 10000
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	focus = {
+		id = neighbor_warLAOCAM
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = neighbor_warCAM
+		prerequisite = { focus = prepare_for_warLAOCAM }
+		bypass = {
+			has_war_with = CAM
+		}
+		x = 0
+		y = 1
+		relative_position_id = prepare_for_warLAOCAM
+		cost = 10
+		available = {
+			is_subject = no
+			has_war = no
+			CAM = {
+				exists = yes
+				not_allies_or_subjects = yes
+				owns_state = 43
+			}
+		}
+		completion_reward = {
+			declare_war_on = {
+				target = CAM
+				type = take_state_focus
+				generator = { 43 }
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=576
+	name="STATE_576"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			975 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 0
+			9932 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = TUR
+		add_claim_by = ARM
+	}
+
+	provinces={
+		652 960 975 3714 3903 3935 3950 3965 3979 6919 6950 6976 6991 9777 9868 9886 9932 9954 11797 11853 11894 
+	}
+	manpower=1322516
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

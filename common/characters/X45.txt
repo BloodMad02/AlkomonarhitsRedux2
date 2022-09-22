@@ -1,0 +1,16 @@
+characters={
+	X45_iaio0aa_oii_a0aoioaaea={
+		name=X45_iaio0aa_oii_a0aoioaaea
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Hermann_Goring.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

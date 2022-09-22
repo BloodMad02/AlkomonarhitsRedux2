@@ -1,0 +1,16 @@
+characters={
+	X48_i0anoa_ae_naaiey_ainoa={
+		name=X48_i0anoa_ae_naaiey_ainoa
+		portraits={
+			civilian={
+				large="gfx/leaders/Mediterranean/Portrait_Papal_State_Angelo_Cerica.tga"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

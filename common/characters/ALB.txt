@@ -1,0 +1,28 @@
+characters={
+	ALB_aaaoa_aae_aa0eaaae={
+		name=ALB_aaaoa_aae_aa0eaaae
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=5
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ALB_einoa_aae_aecaeaae={
+		name=ALB_einoa_aae_aecaeaae
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

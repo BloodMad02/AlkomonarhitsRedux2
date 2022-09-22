@@ -1,0 +1,64 @@
+characters={
+	X05_aaaae0ai_ioaaien={
+		name=X05_aaaae0ai_ioaaien
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X05_ia0aeyi_ia0aeyi={
+		name=X05_ia0aeyi_ia0aeyi
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X05_iaaoaaa_aiia_naoea={
+		name=X05_iaaoaaa_aiia_naoea
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X05_ia0aeyi_ioaaien={
+		name=X05_ia0aeyi_ioaaien
+		corps_commander={
+			skill=3
+			attack_skill=6
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X05_oeaaaae_ia0aeyi={
+		name=X05_oeaaaae_ia0aeyi
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

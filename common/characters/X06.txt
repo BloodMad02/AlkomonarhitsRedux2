@@ -1,0 +1,64 @@
+characters={
+	X06_naaae_aa0eooa0_neiao={
+		name=X06_naaae_aa0eooa0_neiao
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X06_aaaaaiaea_eoiaa0={
+		name=X06_aaaaaiaea_eoiaa0
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X06_oonnaei_o0_daoiai={
+		name=X06_oonnaei_o0_daoiai
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X06_na0aa0_aa0eooa0_neiao={
+		name=X06_na0aa0_aa0eooa0_neiao
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	X06_oaeyo_aa0eooa0_neiao={
+		name=X06_oaeyo_aa0eooa0_neiao
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_BHC_Mohandas_Karamchand_Gandhi.tga"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,57 @@
+units = {
+	fleet = {
+		name = "2. ýñêàäðà"
+		naval_base = 721
+		task_force = {
+			name = "2. ýñêàäðà"
+			location = 721
+			ship = { name = "Àëåêñàíäðà" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Àëåêñàíäðà 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Þëèÿ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Íàäÿ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Íàäÿ 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Ìàðèÿ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Ìàðèÿ 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Ìåëèòîïîëü 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Õåðñîí 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Îêñàíà" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Õåðñîí 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Õåðñîí 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Ìåëèòîïîëü 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Îêñàíà 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Õåðñîí 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Ìåëèòîïîëü 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Ìåëèòîïîëü 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Ñåâàñòîïîëü 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Ìåëèòîïîëü 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Ìåëèòîïîëü 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Õåðñîí 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Ñåâàñòîïîëü 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Õåðñîí 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Ñåâàñòîïîëü 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Ìåëèòîïîëü 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+			ship = { name = "Õåðñîí 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UKR } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "UKR"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "UKR"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,5 @@
+music = {
+	song = "NecoArk"
+	chance = {
+		modifier = {
+			factor = 0.5

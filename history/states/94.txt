@@ -1,0 +1,20 @@
+
+state={
+	id=94
+	name="STATE_94"
+	impassable = yes
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+	}
+
+	provinces={
+		2064 10869 10907 12099 12733 12764 12816 
+	}
+	manpower=241408
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

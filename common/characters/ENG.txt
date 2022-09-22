@@ -1,0 +1,88 @@
+characters={
+	ENG_o0aaa0ee_aaoea0={
+		name=ENG_o0aaa0ee_aaoea0
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ENG_aiiaeua_iaiie={
+		name=ENG_aiiaeua_iaiie
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ENG_aa0aa0o_eyiiayee={
+		name=ENG_aa0aa0o_eyiiayee
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ENG_aai0e_oyea={
+		name=ENG_aai0e_oyea
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ENG_aiiaeua_oyea={
+		name=ENG_aiiaeua_oyea
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ENG_nae0ee_aaiaan={
+		name=ENG_nae0ee_aaiaan
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	ENG_a0oo0_no0a0o={
+		name=ENG_a0oo0_no0a0o
+		portraits={
+			civilian={
+				large="gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=14
+	name="STATE_14"
+	resources={
+		tungsten=6.000
+	}
+
+	history={
+		owner = BOL
+		victory_points = {
+			2174 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = BOL
+	}
+
+	provinces={
+		2174 10952 
+	}
+	manpower=212216
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

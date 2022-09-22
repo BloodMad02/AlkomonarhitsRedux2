@@ -1,0 +1,88 @@
+characters={
+	USA_yaaa0a_oaeiocaeuiai={
+		name=USA_yaaa0a_oaeiocaeuiai
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_aaii_oinoa0={
+		name=USA_aaii_oinoa0
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_aaicao_eyiiayee={
+		name=USA_aaicao_eyiiayee
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_yaaa0a_iaeeoe={
+		name=USA_yaaa0a_iaeeoe
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	USA_aaii_oieean={
+		name=USA_aaii_oieean
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_aecae_noeaain={
+		name=USA_aecae_noeaain
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_ne0on_n0a0a={
+		name=USA_ne0on_n0a0a
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Stanley_Baldwin.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

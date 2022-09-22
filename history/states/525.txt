@@ -1,0 +1,36 @@
+
+state={
+	id=525
+	name="STATE_525"
+	resources={
+		aluminium=2.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			317 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			317 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = GER
+		add_core_of = SCA
+	}
+
+	provinces={
+		317 332 11251 11366 
+	}
+	manpower=309180
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

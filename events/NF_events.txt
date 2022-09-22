@@ -1,0 +1,795 @@
+﻿add_namespace = NFEvents
+
+country_event = {
+	id = NFEvents.1
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by [ENG.GetName]"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			AUS = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = ENG
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.2
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by [JAP.GetName]"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			AUS = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = JAP
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.3
+	title = "[GER.GetName] Demands [HOL.GetName]!"
+	desc = "Today [GER.GetName] sent an envoy to us with a proposition of an union. We are alone and in this world, and a union with [GER.GetName might prove to be fruitful. Our people would be safe with the mighty army of [GER.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We accept the Union"
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				HOL = { is_subject = yes }
+			}
+			modifier = {
+				factor = 0
+				NOT = { tag = HOL }
+				GER = { on_same_continent = no }
+			}
+			modifier = {
+				add = -15
+				GER = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				GER = { has_army_size = { size > 39 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.4 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				GER = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				GER = { has_army_size = { size < 30 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.5 }
+			if = {
+				limit = { is_in_faction_with = HOL }
+				remove_from_faction = HOL
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.5
+	title = "[FROM.GetName] Refuses!"
+	desc = "[FROM.GetName] Refused our proposed union! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = FROM
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.4
+	title = "[FROM.GetName] accepts!"
+	desc = "[FROM.GetName] accepted our proposed union, their added strength will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		every_country = {
+			limit = { is_subject_of = HOL }
+			country_event = NFEvents.3
+		}
+		FROM = {
+			every_owned_state = {
+				add_core_of = GER
+			}
+		}
+		if = {
+			limit = { FROM = { tag = HOL } }
+			annex_country = { target = HOL transfer_troops = yes }
+			add_political_power = 50
+			add_named_threat = { threat = 2 name = "Germany annexed Netherlands" }
+			set_country_flag = HOL_annexed
+		}
+		else = {
+			puppet = FROM
+		}
+
+	}
+}
+
+country_event = {
+	id = NFEvents.6
+	title = "[GER.GetName] Demands [POL.GetName]!"
+	desc = "Today [GER.GetName] sent an envoy to us with a proposition of an union. We are alone and in this world, and a union with [GER.GetName might prove to be fruitful. Our people would be safe with the mighty army of [GER.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We accept the Union"
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				POL = { is_subject = yes }
+			}
+			modifier = {
+				factor = 0
+				NOT = { tag = POL }
+				GER = { on_same_continent = no }
+			}
+			modifier = {
+				add = -15
+				GER = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				GER = { has_army_size = { size > 39 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.7 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				GER = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				GER = { has_army_size = { size < 30 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.8 }
+			if = {
+				limit = { is_in_faction_with = POL }
+				remove_from_faction = POL
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.8
+	title = "[FROM.GetName] Refuses!"
+	desc = "[FROM.GetName] Refused our proposed union! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = FROM
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.7
+	title = "[FROM.GetName] accepts!"
+	desc = "[FROM.GetName] accepted our proposed union, their added strength will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		every_country = {
+			limit = { is_subject_of = POL }
+			country_event = NFEvents.6
+		}
+		FROM = {
+			every_owned_state = {
+				add_core_of = GER
+			}
+		}
+		if = {
+			limit = { FROM = { tag = POL } }
+			annex_country = { target = POL transfer_troops = yes }
+			add_political_power = 50
+			add_named_threat = { threat = 2 name = "Germany annexed Poland" }
+			set_country_flag = POL_annexed
+		}
+		else = {
+			puppet = FROM
+		}
+
+	}
+}
+
+country_event = {
+	id = NFEvents.9
+	title = "[GER.GetName] Demands [SWE.GetName]!"
+	desc = "Today [GER.GetName] sent an envoy to us with a proposition of an union. We are alone and in this world, and a union with [GER.GetName might prove to be fruitful. Our people would be safe with the mighty army of [GER.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We accept the Union"
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				SWE = { is_subject = yes }
+			}
+			modifier = {
+				factor = 0
+				NOT = { tag = SWE }
+				GER = { on_same_continent = no }
+			}
+			modifier = {
+				add = -15
+				GER = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				GER = { has_army_size = { size > 39 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.10 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				GER = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				GER = { has_army_size = { size < 30 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.11 }
+			if = {
+				limit = { is_in_faction_with = SWE }
+				remove_from_faction = SWE
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.11
+	title = "[FROM.GetName] Refuses!"
+	desc = "[FROM.GetName] Refused our proposed union! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = FROM
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.10
+	title = "[FROM.GetName] accepts!"
+	desc = "[FROM.GetName] accepted our proposed union, their added strength will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		every_country = {
+			limit = { is_subject_of = SWE }
+			country_event = NFEvents.9
+		}
+		FROM = {
+			every_owned_state = {
+				add_core_of = GER
+			}
+		}
+		if = {
+			limit = { FROM = { tag = SWE } }
+			annex_country = { target = SWE transfer_troops = yes }
+			add_political_power = 50
+			add_named_threat = { threat = 2 name = "Germany annexed Sweden" }
+			set_country_flag = SWE_annexed
+		}
+		else = {
+			puppet = FROM
+		}
+
+	}
+}
+
+country_event = {
+	id = NFEvents.12
+	title = "[GER.GetName] Demands [SWI.GetName]!"
+	desc = "Today [GER.GetName] sent an envoy to us with a proposition of an union. We are alone and in this world, and a union with [GER.GetName might prove to be fruitful. Our people would be safe with the mighty army of [GER.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We accept the Union"
+		ai_chance = {
+			base = 30
+			modifier = {
+				factor = 0
+				SWI = { is_subject = yes }
+			}
+			modifier = {
+				factor = 0
+				NOT = { tag = SWI }
+				GER = { on_same_continent = no }
+			}
+			modifier = {
+				add = -15
+				GER = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				GER = { has_army_size = { size > 39 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.13 }
+		}
+		custom_effect_tooltip = GAME_OVER_TT
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				GER = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				GER = { has_army_size = { size < 30 } }
+			}
+		}
+		FROM = {
+			country_event = { hours = 2 id = NFEvents.14 }
+			if = {
+				limit = { is_in_faction_with = SWI }
+				remove_from_faction = SWI
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.14
+	title = "[FROM.GetName] Refuses!"
+	desc = "[FROM.GetName] Refused our proposed union! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = FROM
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.13
+	title = "[FROM.GetName] accepts!"
+	desc = "[FROM.GetName] accepted our proposed union, their added strength will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		every_country = {
+			limit = { is_subject_of = SWI }
+			country_event = NFEvents.12
+		}
+		FROM = {
+			every_owned_state = {
+				add_core_of = GER
+			}
+		}
+		if = {
+			limit = { FROM = { tag = SWI } }
+			annex_country = { target = SWI transfer_troops = yes }
+			add_political_power = 50
+			add_named_threat = { threat = 2 name = "Germany annexed Switzerland" }
+			set_country_flag = SWI_annexed
+		}
+		else = {
+			puppet = FROM
+		}
+
+	}
+}
+
+country_event = {
+	id = NFEvents.15
+	title = "[GER.GetName] Demands [FRA.GetName]!"
+	desc = "[GER.GetName] has recently been making claims to our bordering states, saying that these states are full of [GER.GetAdjective] people and that the territory should be given to them. Although it is true that recently our neighboring states have had an influx of [GER.GetAdjective] people in the recent years, we cannot give up our lands because a few [GER.GetAdjective] settled down in our land. In response [GER.GetName] has called for a conference, demanding their territory in exchange for peace. How do we respond? Our people would be safe with the mighty army of [GER.GetName] and we could possibly flourish with their established economy. Or we could refuse the union which would surely lead to war, but maybe we can hold them off!"
+	picture = GFX_report_event_hitler_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We Accept"
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = -15
+				GER = { has_army_size = { size < 40 } }
+			}
+			modifier = {
+				add = 45
+				GER = { has_army_size = { size > 39 } }
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = NFEvents.16 }
+		}
+	}
+
+	option = {
+		name = "We Refuse!"
+		ai_chance  = {
+			base = 10
+			modifier = {
+				factor = 0
+				GER = { has_army_size = { size > 39 } }
+			}
+			modifier = {
+				add = 20
+				GER = { has_army_size = { size < 30 } }
+			}
+		}
+		GER = {
+			country_event = { hours = 2 id = NFEvents.17 }
+			if = {
+				limit = { is_in_faction_with = FRA }
+				remove_from_faction = FRA
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.17
+	title = "[FRA.GetName] Refuses!"
+	desc = "[FRA.GetName] Refused our proposed proposition! This is an insult to us that cannot go unanswered!"
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = yes
+
+	option = {
+		name = "It's time for war"
+		create_wargoal = {
+			type = annex_everything
+			target = FRA
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.16
+	title = "[FRA.GetName] accepts!"
+	desc = "[FRA.GetName] accepted our proposed demands, the added lands will push us to greatness!"
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = "A stronger Union!"
+		205 = { add_core_of = GER }
+		GER = { transfer_state = 205 }
+		204 = { add_core_of = GER }
+		GER = { transfer_state = 204 }
+		set_country_flag = FRA_demanded
+	}
+}
+
+country_event = {
+	id = NFEvents.18
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with [GER.GetName]. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = GER }
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = GER
+					value < 100
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = GER
+					value < 50
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = GER
+					value < 0
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				GER = {
+					is_faction_leader = no
+				}
+			}
+			GER = {
+				leave_faction = yes
+				create_faction = "axis"
+			}
+		}
+		GER = {
+			add_to_faction = ROOT
+		}
+		hidden_effect = {
+			news_event = { id = news.501 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			news_event = { id = news.502 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.19
+	title = "Alliance Offer"
+	desc = "We have been invited to an alliance with [GER.GetName]. Should we accept the invitation?"
+	picture = news_event_generic_sign_treaty1
+
+	is_triggered_only = yes
+
+	option = {
+		name = "Yes"
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				NOT = { has_government = GER }
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = GER
+					value < 100
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = GER
+					value < 50
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = GER
+					value < 0
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				GER = {
+					is_faction_leader = no
+				}
+			}
+			GER = {
+				leave_faction = yes
+				create_faction = "nationalist_league"
+			}
+		}
+		GER = {
+			add_to_faction = ROOT
+		}
+		hidden_effect = {
+			news_event = { id = news.503 }
+		}
+	}
+
+	option = {
+		name = "No"
+		ai_chance = { factor = 1 }
+		hidden_effect = {
+			news_event = { id = news.504 }
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.20
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by [SCA.GetName]"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			JAP = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = SCA
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.21
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by [ENG.GetName]"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			JAP = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = ENG
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = NFEvents.22
+	title = "Trade Incident"
+	desc = "One of our convoys was sunk by [SPR.GetName]"
+	picture = GFX_report_event_chinese_soldiers_fighting
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_country_flag = established_traders
+		NOT = { has_country_flag = established_traders_activated }
+	}
+
+	option = {
+		name = "They will Pay!"
+		ai_chance = { factor = 85 }
+		effect_tooltip = {
+			JAP = {
+				set_country_flag = established_traders_activated
+				create_wargoal = {
+					type = annex_everything
+					target = SPR
+				}
+			}
+		}
+	}
+}

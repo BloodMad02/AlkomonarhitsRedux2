@@ -1,0 +1,492 @@
+focus_tree = {
+	id = GER_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = The_third_wayGER
+		icon = GFX_goal_support_fascism
+		text = The_third_way
+		x = 27
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_named_threat = { threat = 2 name = The_third_way }
+		add_ideas = fascist_influence
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = mil_marchGER
+		icon = GFX_goal_generic_allies_build_infantry
+		text = mil_march
+		prerequisite = { focus = The_third_wayGER }
+		x = 0
+		y = 1
+		relative_position_id = The_third_wayGER
+		cost = 10
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 2
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		}
+	}
+
+	focus = {
+		id = GER_anschluss_HOL
+		icon = GFX_goal_anschluss
+		text = _anschluss_HOL
+		prerequisite = { focus = mil_marchGER }
+		x = -3
+		y = 1
+		relative_position_id = mil_marchGER
+		cost = 10
+		available = {
+		HOL = {
+			has_war = no
+			is_puppet = no
+			is_in_faction = no
+		}
+		is_puppet = no
+		date > 1940.12.7
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Union with Netherlands" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = HOL
+			}
+			HOL = {
+				country_event = NFEvents.3
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = GER_anschluss_POL
+		icon = GFX_goal_anschluss
+		text = _anschluss_POL
+		prerequisite = { focus = mil_marchGER }
+		x = -1
+		y = 1
+		relative_position_id = mil_marchGER
+		cost = 10
+		available = {
+		POL = {
+			has_war = no
+			is_puppet = no
+			is_in_faction = no
+		}
+		is_puppet = no
+		date > 1938.9.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Union with Poland" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = POL
+			}
+			POL = {
+				country_event = NFEvents.6
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = GER_anschluss_SWE
+		icon = GFX_goal_anschluss
+		text = _anschluss_SWE
+		prerequisite = { focus = mil_marchGER }
+		x = 1
+		y = 1
+		relative_position_id = mil_marchGER
+		cost = 10
+		available = {
+		SWE = {
+			has_war = no
+			is_puppet = no
+			is_in_faction = no
+		}
+		is_puppet = no
+		date > 1938.2.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Union with Sweden" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = SWE
+			}
+			SWE = {
+				country_event = NFEvents.9
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = GER_anschluss_SWI
+		icon = GFX_goal_anschluss
+		text = _anschluss_SWI
+		prerequisite = { focus = mil_marchGER }
+		x = 3
+		y = 1
+		relative_position_id = mil_marchGER
+		cost = 10
+		available = {
+		SWI = {
+			has_war = no
+			is_puppet = no
+			is_in_faction = no
+		}
+		is_puppet = no
+		date > 1939.1.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Union with Switzerland" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = SWI
+			}
+			SWI = {
+				country_event = NFEvents.12
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = expand_the_reichGER
+		icon = GFX_goal_generic_political_pressure
+		text = expand_the_reich
+		prerequisite = { focus = GER_anschluss_HOL focus = GER_anschluss_POL focus = GER_anschluss_SWE focus = GER_anschluss_SWI }
+
+		x = 0
+		y = 3
+		relative_position_id = The_third_wayGER
+		cost = 10
+		completion_reward = {
+		add_named_threat = { threat = 3 name = expand_the_reich }
+		add_political_power = 150
+	}
+		ai_will_do = {
+		factor = 5
+	}
+	}
+
+	focus = {
+		id = GER_sudeten_FRA
+		icon = GFX_goal_anschluss
+		text = _sudeten_FRA
+		prerequisite = { focus = expand_the_reichGER }
+		bypass = {
+	  has_war_with = FRA
+	}
+		x = 0
+		y = 1
+		relative_position_id = expand_the_reichGER
+		cost = 10
+		available = {
+		is_puppet = no
+		date > 1939.2.1
+
+	}
+		completion_reward = {
+		add_named_threat = { threat = 2 name = "Demand Territory from France" }
+		army_experience = 10
+		if = {
+			limit = {
+				country_exists = FRA
+			}
+			FRA = {
+				country_event = NFEvents.15
+			}
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = GER_finish_FRA
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_FRA
+		prerequisite = { focus =  GER_sudeten_FRA }
+		bypass = {
+		has_war_with = FRA
+	}
+		x = 0
+		y = 1
+		relative_position_id = GER_sudeten_FRA
+		cost = 10
+		available = {
+		FRA = { is_in_faction = no }
+	}
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Fate of France" }
+		create_wargoal = {
+			type = annex_everything
+			target = FRA
+		}
+	}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = Fas_SummitGER
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Fascist_Summit
+		x = 33
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_named_threat = { threat = 3 name = "Call for the Fascist Summit" }
+		add_political_power = 150
+		hidden_effect = {
+			if = {
+				limit = { has_government = fascism }
+				every_other_country = {
+					limit = { is_major = yes }
+					news_event = { id = news.500 }
+				}
+			}
+		}
+
+	}
+		ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 10
+			date > 1938.1.1
+		}
+	}
+	}
+
+	focus = {
+		id = Alliance_CATGER
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Alliance_CAT
+		prerequisite = { focus = Fas_SummitGER }
+		bypass = {
+		OR = {
+			NOT = { has_government = CAT }
+			CAT = { is_subject = yes }
+			is_in_faction_with = CAT
+			has_war_with = CAT
+			NOT = { country_exists = CAT }
+		}
+	}
+		x = -1
+		y = 1
+		relative_position_id = Fas_SummitGER
+		cost = 10
+		available = {
+		OR = {
+			is_in_faction = no
+			faction_leader = { NOT = { has_war_together_with = ROOT } }
+		}
+		CAT = {
+			OR = {
+				is_faction_leader = yes
+				is_in_faction = no
+				has_war = no
+			}
+			has_opinion = {
+				target = ROOT
+				value > -50
+			}
+		}
+	}
+		completion_reward = {
+		if = {
+			limit = { CAT = { is_faction_leader = yes } }
+			every_country = {
+				limit = {
+					is_in_faction_with = CAT
+					is_subject = no
+				}
+				country_event = { hours = 6 id = NFEvents.18 }
+			}
+		}
+		else = {
+			CAT = { country_event = { hours = 6 id = NFEvents.18 } }
+		}
+		CAT = {
+			add_opinion_modifier = { target = ROOT modifier = positive_50 }
+		}
+	}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+
+	focus = {
+		id = Alliance_FRAGER
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Alliance_FRA
+		prerequisite = { focus = Fas_SummitGER }
+		bypass = {
+		OR = {
+			NOT = { has_government = FRA }
+			FRA = { is_subject = yes }
+			is_in_faction_with = FRA
+			has_war_with = FRA
+			NOT = { country_exists = FRA }
+		}
+	}
+		x = 1
+		y = 1
+		relative_position_id = Fas_SummitGER
+		cost = 10
+		available = {
+		OR = {
+			is_in_faction = no
+			faction_leader = { NOT = { has_war_together_with = ROOT } }
+		}
+		FRA = {
+			OR = {
+				is_faction_leader = yes
+				is_in_faction = no
+				has_war = no
+			}
+			has_opinion = {
+				target = ROOT
+				value > -50
+			}
+		}
+	}
+		completion_reward = {
+		if = {
+			limit = { FRA = { is_faction_leader = yes } }
+			every_country = {
+				limit = {
+					is_in_faction_with = FRA
+					is_subject = no
+				}
+				country_event = { hours = 6 id = NFEvents.19 }
+			}
+		}
+		else = {
+			FRA = { country_event = { hours = 6 id = NFEvents.19 } }
+		}
+		FRA = {
+			add_opinion_modifier = { target = ROOT modifier = positive_50 }
+		}
+	}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+
+	focus = {
+		id = GP_WarSCAGER
+		icon = GFX_goal_generic_major_war
+		text = GP_WarSCA
+		prerequisite = { focus = Alliance_CATGER }
+		prerequisite = { focus = Alliance_FRAGER }
+		bypass = {
+		has_war_with = SCA
+	}
+		x = 0
+		y = 2
+		relative_position_id = Fas_SummitGER
+		cost = 10
+		available = {
+		has_war = no
+		date > 1941.5.21
+	}
+		completion_reward = {
+		add_named_threat = { threat = 5 name = "War with Scandinavia" }
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = SCA
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		modifier = {
+			factor = 0
+			strength_ratio = { tag = SCA ratio < 1 }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				
+			}
+		}
+	}
+	}
+
+}

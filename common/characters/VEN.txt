@@ -1,0 +1,64 @@
+characters={
+	VEN_aociai_iaiuy0en={
+		name=VEN_aociai_iaiuy0en
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	VEN_ooeei_ia0eei={
+		name=VEN_ooeei_ia0eei
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	VEN_daeioiai_eaaiaei={
+		name=VEN_daeioiai_eaaiaei
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	VEN_oei0aioeii_oaeueii={
+		name=VEN_oei0aioeii_oaeueii
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	VEN_aociai_iaeea0eiui={
+		name=VEN_aociai_iaeea0eiui
+		portraits={
+			civilian={
+				large="gfx/leaders/DOM/portrait_dom_rafael_trujillo.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,52 @@
+characters={
+	BRU_acec_io0oeaoe={
+		name=BRU_acec_io0oeaoe
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRU_0noo_io0oeaoe={
+		name=BRU_0noo_io0oeaoe
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	BRU_iooaiiaa_ioaacai={
+		name=BRU_iooaiiaa_ioaacai
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRU_0noo_io0oeaoe_1={
+		name=BRU_0noo_io0oeaoe_1
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

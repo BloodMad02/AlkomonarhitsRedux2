@@ -1,0 +1,37 @@
+
+state={
+	id=455
+	name="STATE_455"
+	resources={
+		aluminium=1.000
+		oil=1.000
+		steel=2.000
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			12727 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			10791 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = X24
+	}
+
+	provinces={
+		4932 5024 5081 5093 8004 8030 8060 8118 10791 10870 12727 12740 12768 12813 12870 
+	}
+	manpower=229608
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

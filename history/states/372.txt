@@ -1,0 +1,36 @@
+
+state={
+	id=372
+	name="STATE_372"
+	resources={
+		chromium=9.000
+	}
+
+	history={
+		owner = X37
+		victory_points = {
+			2200 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			5185 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = MAD
+		add_core_of = X37
+	}
+
+	provinces={
+		2200 5185 8180 8246 11015 12956 
+	}
+	manpower=1068236
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

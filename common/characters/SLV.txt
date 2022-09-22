@@ -1,0 +1,16 @@
+characters={
+	SLV_a0iae_aiea0={
+		name=SLV_a0iae_aiea0
+		portraits={
+			civilian={
+				large="gfx/leaders/BUL/Portrait_Bulgaria_Boris_III.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

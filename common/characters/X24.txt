@@ -1,0 +1,52 @@
+characters={
+	X24_enoae_eai_eaieeu={
+		name=X24_enoae_eai_eaieeu
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X24_oeoai_eai_oaeeeu={
+		name=X24_oeoai_eai_oaeeeu
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X24_oaace_aeu_oeaaace={
+		name=X24_oaace_aeu_oeaaace
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=4
+			legacy_id=0
+		}
+	}
+
+	X24_ooaa_eai_oia0={
+		name=X24_ooaa_eai_oia0
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabic_Persian/Portrait_Persia_Hassan_Mirza_Qajar.tga"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

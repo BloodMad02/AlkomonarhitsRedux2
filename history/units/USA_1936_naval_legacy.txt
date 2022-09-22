@@ -1,0 +1,80 @@
+units = {
+	fleet = {
+		name = "1. ýñêàäðà"
+		naval_base = 3957
+		task_force = {
+			name = "1. ýñêàäðà"
+			location = 3957
+			ship = { name = "Ìè÷èãàí" definition = battleship equipment = { battleship_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Êîííåêòèêóò" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ëóèçèàíà" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ìýí" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ëóèçèàíà 2" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Âåðìîíò" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ðîä Àéëåíä" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Òåõàñ" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Îðåãîí" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ìàññà÷óñåòñ" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Âèðäæèíèÿ" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Íåáðàñêà" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Äæîðäæèÿ" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Íüþ-Äæåðñè" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Èëëèíîéñ" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Êàíçàñ" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Êèàðñåðäæ" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Àéîâà" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Êèàðñåðäæ 2" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Èíäèàíà" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ìýí 2" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Àëàáàìà" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Âèñêîíñèí" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ìèññóðè" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Îãàéî" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Âåðìîíò 2" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ðîä Àéëåíä 2" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Êåíòóêêè" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ìàðáëõåä" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ìèííåàïîëèñ" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Êîëóìáèÿ" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ìèííåàïîëèñ 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Äå Ìóàí" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "×àòòàíóãà" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ãàëâåñòîí" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Òàêîìà" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Êëèâëåíä" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ìèëóîêè" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ôèëàäåëüôèÿ" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ñàí-Ôðàíöèñêî" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Êîëóìáèÿ 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Öèíöèííàòè" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ðîëè" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Ìîíòãîìåðè" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Äåòðîéò" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Íüþàðê" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Áàëòèìîð" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "×àðëüñòîí" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+			ship = { name = "Îëèìïèÿ" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = USA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "USA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "USA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

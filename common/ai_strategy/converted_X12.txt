@@ -1,0 +1,153 @@
+﻿converted_war_strategies_X12 = {
+	enable = {
+		tag = X12
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 2865
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X27"
+		value = 584
+	}
+	ai_strategy = {
+		type = conquer
+		id = "POR"
+		value = 78
+	}
+}
+
+converted_diplo_strategies_X12 = {
+	enable = {
+		tag = X12
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X05"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X16"
+		value = 351
+	}
+	ai_strategy = {
+		type = contain
+		id = "X15"
+		value = 302
+	}
+	ai_strategy = {
+		type = contain
+		id = "X21"
+		value = 253
+	}
+	ai_strategy = {
+		type = contain
+		id = "X23"
+		value = 172
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 163
+	}
+	ai_strategy = {
+		type = contain
+		id = "X03"
+		value = 123
+	}
+	ai_strategy = {
+		type = contain
+		id = "X19"
+		value = 123
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X15"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X05"
+		value = 388
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X21"
+		value = 361
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X23"
+		value = 234
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X16"
+		value = 177
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 176
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X27"
+		value = 110
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "POR"
+		value = 13
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X18"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X07"
+		value = 131
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X06"
+		value = 123
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X30"
+		value = 93
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X05"
+		value = 215
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X03"
+		value = 90
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X15"
+		value = 88
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "LIB"
+		value = 83
+	}
+}

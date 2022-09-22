@@ -1,0 +1,45 @@
+units = {
+	fleet = {
+		name = "7. ýñêàäðà"
+		naval_base = 6282
+		task_force = {
+			name = "7. ýñêàäðà"
+			location = 6282
+			ship = { name = "Êàéçåð Áàðáàðîññà" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = GER } } }
+			ship = { name = "Âèòòåëüñáàõ" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = GER } } }
+			ship = { name = "Âåòòèí" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = GER } } }
+			ship = { name = "Êàéçåð Âèëüãåëüì Âåëèêèé" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = GER } } }
+			ship = { name = "Áðàíäåíáóðã" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = GER } } }
+		}
+	}
+	fleet = {
+		name = "1. ýñêàäðà"
+		naval_base = 6446
+		task_force = {
+			name = "1. ýñêàäðà"
+			location = 6446
+			ship = { name = "Àìàçîíêà" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = GER } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "GER"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "GER"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

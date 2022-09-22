@@ -1,0 +1,307 @@
+﻿capital = 89
+set_research_slots = 3
+
+oob = "EGY_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "EGY_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "EGY_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_egypt
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1934.5.20"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 21
+	democratic = 41
+	fascism = 20
+	neutrality = 18
+}
+
+give_guarantee = ITA
+diplomatic_relation = { country = ITA relation = non_aggression_pact }
+
+add_opinion_modifier = { target = ALB modifier = positive_30 }
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = AUS modifier = negative_126 }
+give_military_access = AUS
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BRA modifier = negative_10 }
+add_opinion_modifier = { target = BRM modifier = negative_20 }
+add_opinion_modifier = { target = BUL modifier = negative_30 }
+add_opinion_modifier = { target = CAM modifier = negative_20 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = ECU modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = positive_110 }
+add_opinion_modifier = { target = ETH modifier = negative_174 }
+add_opinion_modifier = { target = FRA modifier = negative_61 }
+add_opinion_modifier = { target = GER modifier = positive_89 }
+add_opinion_modifier = { target = GRE modifier = negative_3 }
+add_opinion_modifier = { target = GXC modifier = negative_20 }
+add_opinion_modifier = { target = HOL modifier = negative_181 }
+add_opinion_modifier = { target = ITA modifier = positive_177 }
+add_opinion_modifier = { target = JAP modifier = negative_20 }
+add_opinion_modifier = { target = KHI modifier = positive_10 }
+add_opinion_modifier = { target = KOR modifier = negative_20 }
+add_opinion_modifier = { target = KYR modifier = positive_10 }
+add_opinion_modifier = { target = LAO modifier = negative_20 }
+add_opinion_modifier = { target = MEX modifier = negative_10 }
+add_opinion_modifier = { target = MOR modifier = positive_25 }
+add_opinion_modifier = { target = PER modifier = negative_50 }
+add_opinion_modifier = { target = POL modifier = negative_95 }
+add_opinion_modifier = { target = POR modifier = negative_188 }
+add_opinion_modifier = { target = PRU modifier = negative_10 }
+add_opinion_modifier = { target = SCA modifier = positive_5 }
+add_opinion_modifier = { target = SER modifier = negative_40 }
+add_opinion_modifier = { target = SIA modifier = negative_20 }
+add_opinion_modifier = { target = SOV modifier = negative_30 }
+add_opinion_modifier = { target = SPR modifier = negative_12 }
+add_opinion_modifier = { target = SWE modifier = negative_10 }
+add_opinion_modifier = { target = SWI modifier = negative_20 }
+add_opinion_modifier = { target = TUR modifier = negative_174 }
+add_opinion_modifier = { target = UKR modifier = negative_50 }
+add_opinion_modifier = { target = URG modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = negative_200 }
+add_opinion_modifier = { target = VEN modifier = negative_10 }
+add_opinion_modifier = { target = VIN modifier = negative_20 }
+add_opinion_modifier = { target = X19 modifier = positive_10 }
+add_opinion_modifier = { target = X25 modifier = negative_10 }
+add_opinion_modifier = { target = X27 modifier = negative_20 }
+add_opinion_modifier = { target = X29 modifier = negative_20 }
+add_opinion_modifier = { target = X30 modifier = positive_10 }
+add_opinion_modifier = { target = X32 modifier = negative_10 }
+add_opinion_modifier = { target = X34 modifier = negative_10 }
+
+
+add_ideas = {
+	EGY_monarch
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_misri
+}
+set_stability = 0.60
+set_war_support = 0.60
+
+recruit_character = EGY_eacei_aae
+recruit_character = EGY_deoao_iaoa
+recruit_character = EGY_eacei_aae_1
+recruit_character = EGY_iia0_aae
+recruit_character = EGY_daoo_aae
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Yagana Ïàøà"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EGY }
+	}
+
+	create_operative_leader = {
+		name = "Parween Áåé"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EGY }
+	}
+
+	create_operative_leader = {
+		name = "Kamala Áåé"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { EGY }
+	}
+
+	create_operative_leader = {
+		name = "Ìóðàä Ïàøà"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EGY }
+	}
+
+	create_operative_leader = {
+		name = "Íóðåääèí Ïàøà"
+		GFX = "gfx/leaders/Arabia/portrait_arabia_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { EGY }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = EGY_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = EGY_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = EGY_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

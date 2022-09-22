@@ -1,0 +1,76 @@
+characters={
+	KOR_eei_0oia={
+		name=KOR_eei_0oia
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	KOR_ai_noi={
+		name=KOR_ai_noi
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	KOR_aaiia_oeieiia={
+		name=KOR_aaiia_oeieiia
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	KOR_oiia_oeieiia={
+		name=KOR_oiia_oeieiia
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	KOR_ai_oo={
+		name=KOR_ai_oo
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	KOR_ai_oaai={
+		name=KOR_ai_oaai
+		portraits={
+			civilian={
+				large="gfx/leaders/Korean_Japan/Yi_Un.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

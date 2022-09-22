@@ -1,0 +1,21 @@
+
+state={
+	id=299
+	name="STATE_299"
+	impassable = yes
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_claim_by = TUR
+	}
+
+	provinces={
+		1060 11951 
+	}
+	manpower=62217
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

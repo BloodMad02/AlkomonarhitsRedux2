@@ -1,0 +1,33 @@
+
+state={
+	id=71
+	name="STATE_71"
+
+	history={
+		owner = COL
+		victory_points = {
+			7630 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			7630 = {
+				naval_base = 4
+			}
+			air_base = 6
+
+		}
+		add_core_of = COL
+		add_core_of = PAN
+	}
+
+	provinces={
+		1633 4611 4624 7630 10482 
+	}
+	manpower=2636680
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

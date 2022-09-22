@@ -1,0 +1,47 @@
+units = {
+	fleet = {
+		name = "7. ýñêàäðà"
+		naval_base = 6282
+		task_force = {
+			name = "7. ýñêàäðà"
+			location = 6282
+			ship = { name = "Êàéçåð Áàðáàðîññà" definition = heavy_cruiser start_experience_factor = 0.21551 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Âèòòåëüñáàõ" definition = heavy_cruiser start_experience_factor = 0.21621 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Âåòòèí" definition = heavy_cruiser start_experience_factor = 0.21272 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Êàéçåð Âèëüãåëüì Âåëèêèé" definition = heavy_cruiser start_experience_factor = 0.21824 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Áðàíäåíáóðã" definition = heavy_cruiser start_experience_factor = 0.22046 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "1. ýñêàäðà"
+		naval_base = 6446
+		task_force = {
+			name = "1. ýñêàäðà"
+			location = 6446
+			ship = { name = "Àìàçîíêà" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "GER"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "GER"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

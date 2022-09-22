@@ -1,0 +1,113 @@
+﻿converted_war_strategies_NGA = {
+	enable = {
+		tag = NGA
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 1384
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SWE"
+		value = 474
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 200
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 9
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SCA"
+		value = 9
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SPR"
+		value = 3
+	}
+}
+
+converted_diplo_strategies_NGA = {
+	enable = {
+		tag = NGA
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SWE"
+		value = 265
+	}
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 257
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SWE"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 99
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 1
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SCA"
+		value = 1
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SPR"
+		value = 0
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SCA"
+		value = 63
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X29"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SWE"
+		value = 58
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "KHI"
+		value = 50
+	}
+}

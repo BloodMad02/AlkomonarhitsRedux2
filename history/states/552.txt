@@ -1,0 +1,33 @@
+
+state={
+	id=552
+	name="STATE_552"
+
+	history={
+		owner = X56
+		victory_points = {
+			1351 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1351 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = PHI
+		add_core_of = X56
+	}
+
+	provinces={
+		1351 
+	}
+	manpower=16352
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

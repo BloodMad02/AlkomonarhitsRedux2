@@ -1,0 +1,88 @@
+﻿converted_war_strategies_MON = {
+	enable = {
+		tag = MON
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 1312
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 481
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GEO"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_MON = {
+	enable = {
+		tag = MON
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 314
+	}
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 262
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 164
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 258
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 223
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GXC"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "YUN"
+		value = 178
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 87
+	}
+	ai_strategy = {
+		type = alliance
+		id = "KOR"
+		value = 27
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "VEN"
+		value = 119
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ECU"
+		value = 41
+	}
+}

@@ -1,0 +1,135 @@
+﻿capital = 6
+set_research_slots = 3
+
+oob = "ALB_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "ALB_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "ALB_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_yugoslavia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1894.7.15"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 98
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BRA modifier = negative_30 }
+add_opinion_modifier = { target = BUL modifier = positive_11 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = ECU modifier = negative_10 }
+add_opinion_modifier = { target = EGY modifier = positive_30 }
+add_opinion_modifier = { target = GRE modifier = negative_48 }
+add_opinion_modifier = { target = ITA modifier = positive_90 }
+add_opinion_modifier = { target = KHI modifier = positive_30 }
+add_opinion_modifier = { target = KYR modifier = positive_30 }
+add_opinion_modifier = { target = MEX modifier = negative_10 }
+add_opinion_modifier = { target = MNT modifier = negative_24 }
+add_opinion_modifier = { target = MOR modifier = positive_30 }
+add_opinion_modifier = { target = PER modifier = positive_15 }
+add_opinion_modifier = { target = PRU modifier = negative_10 }
+add_opinion_modifier = { target = TUR modifier = negative_90 }
+add_opinion_modifier = { target = URG modifier = negative_10 }
+add_opinion_modifier = { target = VEN modifier = negative_10 }
+add_opinion_modifier = { target = X19 modifier = positive_30 }
+add_opinion_modifier = { target = X25 modifier = negative_10 }
+add_opinion_modifier = { target = X30 modifier = positive_30 }
+add_opinion_modifier = { target = X32 modifier = negative_10 }
+add_opinion_modifier = { target = X34 modifier = negative_10 }
+
+
+add_ideas = {
+	ALB_monarch
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_albanian
+}
+set_stability = 0.60
+set_war_support = 0.63
+
+recruit_character = ALB_aaaoa_aae_aa0eaaae
+recruit_character = ALB_einoa_aae_aecaeaae
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Bora Áàçíà"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Shpresa Äðàãîòè"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Vera Ôåéçè Àëèçîòè"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Àõìåò Øàõèíè"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+	create_operative_leader = {
+		name = "Êîçè Äðàãîòè"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ALB }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

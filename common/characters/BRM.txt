@@ -1,0 +1,76 @@
+characters={
+	BRM_ieiaii_aaaeeaaa={
+		name=BRM_ieiaii_aaaeeaaa
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRM_caey_aaaeeaaa={
+		name=BRM_caey_aaaeeaaa
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRM_iaaai_aaaeeaaa={
+		name=BRM_iaaai_aaaeeaaa
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRM_iaoia_iui={
+		name=BRM_iaoia_iui
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRM_ieiaii_aaaaeei={
+		name=BRM_ieiaii_aaaaeei
+		navy_leader={
+			skill=3
+			attack_skill=5
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRM_iaaai_iei={
+		name=BRM_iaaai_iei
+		portraits={
+			civilian={
+				large="gfx/leaders/BHU/portrait_bhu_jigme_wangchuk.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

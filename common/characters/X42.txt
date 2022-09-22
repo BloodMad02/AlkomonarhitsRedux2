@@ -1,0 +1,16 @@
+characters={
+	X42_ea0ie_aa_ea0e={
+		name=X42_ea0ie_aa_ea0e
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

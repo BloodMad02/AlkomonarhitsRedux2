@@ -1,0 +1,88 @@
+characters={
+	GER_aeuo0aa_o0aa={
+		name=GER_aeuo0aa_o0aa
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	GER_aaaeuaa0o_oii_ceoai={
+		name=GER_aaaeuaa0o_oii_ceoai
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GER_aaaeuaa0o_ei0aaiaii={
+		name=GER_aaaeuaa0o_ei0aaiaii
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GER_eaiia0o_oii_iaeeaiao0a_oaa0ei={
+		name=GER_eaiia0o_oii_iaeeaiao0a_oaa0ei
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GER_eaiia0o_oii_naenai_aaeia0_yecaiao={
+		name=GER_eaiia0o_oii_naenai_aaeia0_yecaiao
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	GER_aeaenaia0_a0inoa={
+		name=GER_aeaenaia0_a0inoa
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	GER_o0eo_aiaaeu_oii_oaeueaiooaei={
+		name=GER_o0eo_aiaaeu_oii_oaeueaiooaei
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Heinrich_Himmler.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

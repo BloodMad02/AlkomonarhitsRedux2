@@ -1,0 +1,36 @@
+
+state={
+	id=103
+	name="STATE_103"
+	resources={
+		aluminium=2.000
+		steel=4.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			4872 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			7185 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		1848 1873 3721 4218 4426 4790 4872 5119 5239 6728 7185 7782 9615 10585 10605 12145 12636 12688 
+	}
+	manpower=1230123
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

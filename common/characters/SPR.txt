@@ -1,0 +1,76 @@
+characters={
+	SPR_oaeanoeii_na00aii={
+		name=SPR_oaeanoeii_na00aii
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SPR_daiii_ia0aan={
+		name=SPR_daiii_ia0aan
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	SPR_o0aioenei_oaaua0_ieaoa={
+		name=SPR_o0aioenei_oaaua0_ieaoa
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SPR_naiouyai_aeoea={
+		name=SPR_naiouyai_aeoea
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SPR_eaiiieuai_y0iaiaan={
+		name=SPR_eaiiieuai_y0iaiaan
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	SPR_aaa0eaeu_euaii_aa_eeaii={
+		name=SPR_aaa0eaeu_euaii_aa_eeaii
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/portrait_cos_ricardo_jiminez_oreamuno.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

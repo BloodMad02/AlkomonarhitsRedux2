@@ -1,0 +1,76 @@
+characters={
+	HOL_aain_aai_aaiiio={
+		name=HOL_aain_aai_aaiiio
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	HOL_ooaoai_aa0niaee={
+		name=HOL_ooaoai_aa0niaee
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	HOL_dooaa0_aaiaaeun={
+		name=HOL_dooaa0_aaiaaeun
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	HOL_ia0eon_aai_aeiaeu={
+		name=HOL_ia0eon_aai_aeiaeu
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	HOL_neiii_yeeen={
+		name=HOL_neiii_yeeen
+		navy_leader={
+			skill=3
+			attack_skill=1
+			defense_skill=6
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	HOL_aeeoi0_aaeooaeu={
+		name=HOL_aeeoi0_aaeooaeu
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

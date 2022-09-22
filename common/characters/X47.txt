@@ -1,0 +1,16 @@
+characters={
+	X47_iaoaen_ieoeeun={
+		name=X47_iaoaen_ieoeeun
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

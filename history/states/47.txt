@@ -1,0 +1,54 @@
+
+state={
+	id=47
+	name="STATE_47"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			11913 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			arms_factory = 1
+			dockyard = 1
+			1029 = {
+				naval_base = 4
+			}
+			air_base = 7
+
+		}
+		add_core_of = CHI
+		add_core_of = PRC
+		GXC = {
+			set_province_controller = 1029
+			set_province_controller = 1076
+			set_province_controller = 4001
+			set_province_controller = 4005
+			set_province_controller = 4031
+			set_province_controller = 4082
+			set_province_controller = 4123
+			set_province_controller = 7025
+			set_province_controller = 7142
+			set_province_controller = 7181
+			set_province_controller = 7200
+			set_province_controller = 9956
+			set_province_controller = 10095
+			set_province_controller = 12055
+			set_province_controller = 12067
+		}
+	}
+
+	provinces={
+		1001 1029 1076 1121 1146 1161 4001 4005 4031 4082 4123 4148 7025 7142 7181 7200 9953 9956 10008 10095 11913 12055 12067 
+	}
+	manpower=23710867
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

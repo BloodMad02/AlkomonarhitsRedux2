@@ -1,0 +1,64 @@
+characters={
+	SWI_aai0eo_oiaeaa0={
+		name=SWI_aai0eo_oiaeaa0
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SWI_oeaaei_neaaa0o_i0eea0={
+		name=SWI_oeaaei_neaaa0o_i0eea0
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	SWI_doaieuo_oii_aiiaoo={
+		name=SWI_doaieuo_oii_aiiaoo
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SWI_iaoeu_oi0ia0ia={
+		name=SWI_iaoeu_oi0ia0ia
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SWI_aeeuaaeui_oii_ooaeaa0={
+		name=SWI_aeeuaaeui_oii_ooaeaa0
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

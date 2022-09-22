@@ -1,0 +1,28 @@
+characters={
+	X31_daaaa_ia0oiae={
+		name=X31_daaaa_ia0oiae
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X31_ioeai_daia_aa0ia={
+		name=X31_ioeai_daia_aa0ia
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_PRF_Khengarji_III_Sawai_Bahadur.tga"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

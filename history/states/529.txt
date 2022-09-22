@@ -1,0 +1,35 @@
+
+state={
+	id=529
+	name="STATE_529"
+	resources={
+		aluminium=3.000
+	}
+
+	history={
+		owner = X54
+		victory_points = {
+			10919 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			10919 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = X54
+	}
+
+	provinces={
+		10919 12762 12874 
+	}
+	manpower=868668
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

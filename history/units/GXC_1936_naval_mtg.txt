@@ -1,0 +1,29 @@
+units = {
+	fleet = {
+		name = "1. ýñêàäðà"
+		naval_base = 1055
+		task_force = {
+			name = "1. ýñêàäðà"
+			location = 5244
+			ship = { name = "Íàí-Øèí" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = GXC version_name = "Early Destroyer" } } }
+			ship = { name = "Ïàî-Íèì" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = GXC version_name = "Early Destroyer" } } }
+			ship = { name = "Ïàî-Íèì 2" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = GXC version_name = "Early Destroyer" } } }
+			ship = { name = "Õýé-Þí" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = GXC version_name = "Early Destroyer" } } }
+			ship = { name = "Ôåé-Õóí" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = GXC version_name = "Early Destroyer" } } }
+			ship = { name = "×àî-Õî" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = GXC version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "GXC"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

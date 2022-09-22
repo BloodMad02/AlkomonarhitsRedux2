@@ -1,0 +1,82 @@
+units = {
+	fleet = {
+		name = "1. ýñêàäðà"
+		naval_base = 3957
+		task_force = {
+			name = "1. ýñêàäðà"
+			location = 3957
+			ship = { name = "Ìè÷èãàí" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Early Battleship" } } }
+			ship = { name = "Êîííåêòèêóò" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ëóèçèàíà" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ìýí" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ëóèçèàíà 2" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Âåðìîíò" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ðîä Àéëåíä" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Òåõàñ" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Îðåãîí" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ìàññà÷óñåòñ" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Âèðäæèíèÿ" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Íåáðàñêà" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Äæîðäæèÿ" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Íüþ-Äæåðñè" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Èëëèíîéñ" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Êàíçàñ" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Êèàðñåðäæ" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Àéîâà" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Êèàðñåðäæ 2" definition = heavy_cruiser start_experience_factor = 0.22854 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Èíäèàíà" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ìýí 2" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Àëàáàìà" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Âèñêîíñèí" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ìèññóðè" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Îãàéî" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Âåðìîíò 2" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ðîä Àéëåíä 2" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Êåíòóêêè" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ìàðáëõåä" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ìèííåàïîëèñ" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Êîëóìáèÿ" definition = light_cruiser start_experience_factor = 0.23556 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ìèííåàïîëèñ 2" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Äå Ìóàí" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "×àòòàíóãà" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ãàëâåñòîí" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Òàêîìà" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Êëèâëåíä" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ìèëóîêè" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ôèëàäåëüôèÿ" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ñàí-Ôðàíöèñêî" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Êîëóìáèÿ 2" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Öèíöèííàòè" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ðîëè" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ìîíòãîìåðè" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Äåòðîéò" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Íüþàðê" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Áàëòèìîð" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "×àðëüñòîí" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Îëèìïèÿ" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "USA"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "USA"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

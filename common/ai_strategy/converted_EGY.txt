@@ -1,0 +1,173 @@
+﻿converted_war_strategies_EGY = {
+	enable = {
+		tag = EGY
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 2030
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 475
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ETH"
+		value = 233
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 110
+	}
+	ai_strategy = {
+		type = conquer
+		id = "POR"
+		value = 25
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 3
+	}
+}
+
+converted_diplo_strategies_EGY = {
+	enable = {
+		tag = EGY
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 346
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 258
+	}
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 232
+	}
+	ai_strategy = {
+		type = contain
+		id = "AUS"
+		value = 177
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 169
+	}
+	ai_strategy = {
+		type = contain
+		id = "FRA"
+		value = 155
+	}
+	ai_strategy = {
+		type = contain
+		id = "POR"
+		value = 151
+	}
+	ai_strategy = {
+		type = contain
+		id = "GRE"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ETH"
+		value = 387
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 374
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 295
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "NGA"
+		value = 99
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "KHI"
+		value = 95
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 84
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "POR"
+		value = 42
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 1
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 118
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PER"
+		value = 64
+	}
+	ai_strategy = {
+		type = alliance
+		id = "UKR"
+		value = 64
+	}
+	ai_strategy = {
+		type = protect
+		id = "ETH"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ETH"
+		value = 73
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "HAI"
+		value = 67
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "LIB"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "KYR"
+		value = 42
+	}
+}

@@ -1,0 +1,40 @@
+characters={
+	KHI_oe0_aooa0e={
+		name=KHI_oe0_aooa0e
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	KHI_iaoioa_oai={
+		name=KHI_iaoioa_oai
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	KHI_oia0_aooa0e={
+		name=KHI_oia0_aooa0e
+		portraits={
+			civilian={
+				large="gfx/leaders/TUR/portrait_tur_abdulmejid_ii.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

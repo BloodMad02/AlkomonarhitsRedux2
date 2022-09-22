@@ -1,0 +1,102 @@
+characters={
+	ITA_i0anoa_eaiaeei={
+		name=ITA_i0anoa_eaiaeei
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ITA_ia0ei_iaeeo={
+		name=ITA_ia0ei_iaeeo
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	ITA_aeuoiini_eaaeaaa={
+		name=ITA_aeuoiini_eaaeaaa
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ITA_oaonoeii_aaea0aeii={
+		name=ITA_oaonoeii_aaea0aeii
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	ITA_oui0aioi_aaeuaenna0a={
+		name=ITA_oui0aioi_aaeuaenna0a
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	ITA_daooaaea_oeeiia0eii={
+		name=ITA_daooaaea_oeeiia0eii
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	ITA_aeannaia0i_aa0eaaeuae={
+		name=ITA_aeannaia0i_aa0eaaeuae
+		portraits={
+			civilian={
+				large="gfx/leaders/Eastern_European/Portrait_Russia_Pyotr_Wrangel_Tsar.tga"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-2
+		}
+	}
+
+    ITA_vrangel_aa0eaaeuae={
+		name=Vrangel
+		portraits={
+			civilian={
+				large="gfx/leaders/Western_European/Portrait_Canada_King_Edward_VIII.tga"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

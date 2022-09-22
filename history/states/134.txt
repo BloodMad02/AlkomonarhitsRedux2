@@ -1,0 +1,37 @@
+
+state={
+	id=134
+	name="STATE_134"
+	resources={
+		chromium=7.000
+		tungsten=42.000
+	}
+
+	history={
+		owner = X40
+		victory_points = {
+			8011 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			10190 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = X22
+		add_core_of = X40
+	}
+
+	provinces={
+		1412 4315 4344 7244 7395 8011 8100 10190 10208 12146 12734 
+	}
+	manpower=4068096
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

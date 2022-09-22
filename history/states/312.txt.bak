@@ -1,0 +1,20 @@
+
+state={
+	id=312
+	name="STATE_312"
+	impassable = yes
+
+	history={
+		owner = X50
+		add_core_of = X50
+	}
+
+	provinces={
+		1115 2068 10725 10868 
+	}
+	manpower=205580
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

@@ -1,0 +1,88 @@
+characters={
+	FRA_aai_aa_aieeu={
+		name=FRA_aai_aa_aieeu
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_oa0eu_aaeaio={
+		name=FRA_oa0eu_aaeaio
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_a0euai_aaeuaie={
+		name=FRA_a0euai_aaeuaie
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_eaca0u_aa_eaiaea={
+		name=FRA_eaca0u_aa_eaiaea
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_aoeea_ao0a={
+		name=FRA_aoeea_ao0a
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_eaca0u_a0euaii={
+		name=FRA_eaca0u_a0euaii
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_ea0ie_euioae={
+		name=FRA_ea0ie_euioae
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

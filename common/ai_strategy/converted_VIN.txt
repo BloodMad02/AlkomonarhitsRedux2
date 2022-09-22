@@ -1,0 +1,173 @@
+﻿converted_war_strategies_VIN = {
+	enable = {
+		tag = VIN
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "GXC"
+		value = 234
+	}
+	ai_strategy = {
+		type = conquer
+		id = "LAO"
+		value = 186
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 127
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAM"
+		value = 121
+	}
+	ai_strategy = {
+		type = conquer
+		id = "YUN"
+		value = 65
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BRA"
+		value = 32
+	}
+	ai_strategy = {
+		type = conquer
+		id = "COL"
+		value = 16
+	}
+}
+
+converted_diplo_strategies_VIN = {
+	enable = {
+		tag = VIN
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "LAO"
+		value = 293
+	}
+	ai_strategy = {
+		type = contain
+		id = "CAM"
+		value = 285
+	}
+	ai_strategy = {
+		type = contain
+		id = "GXC"
+		value = 169
+	}
+	ai_strategy = {
+		type = contain
+		id = "BRM"
+		value = 126
+	}
+	ai_strategy = {
+		type = contain
+		id = "SIA"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "YUN"
+		value = 103
+	}
+	ai_strategy = {
+		type = contain
+		id = "X09"
+		value = 55
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "LAO"
+		value = 321
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GXC"
+		value = 142
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "YUN"
+		value = 101
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 42
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BRA"
+		value = 11
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "COL"
+		value = 5
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SIA"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = 66
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BRM"
+		value = 56
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X27"
+		value = 18
+	}
+	ai_strategy = {
+		type = protect
+		id = "CAM"
+		value = 140
+	}
+	ai_strategy = {
+		type = protect
+		id = "LAO"
+		value = 140
+	}
+	ai_strategy = {
+		type = protect
+		id = "X09"
+		value = 50
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BRM"
+		value = 130
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X34"
+		value = 106
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "YUN"
+		value = 94
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "LAO"
+		value = 72
+	}
+}

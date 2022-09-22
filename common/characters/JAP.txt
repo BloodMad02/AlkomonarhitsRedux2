@@ -1,0 +1,88 @@
+characters={
+	JAP_ia0eaee_a0aee={
+		name=JAP_ia0eaee_a0aee
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	JAP_oe0ine_ie0y={
+		name=JAP_oe0ine_ie0y
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	JAP_ieiyi_inoie={
+		name=JAP_ieiyi_inoie
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	JAP_ee,oaea_iaeaio0a={
+		name=JAP_ee,oaea_iaeaio0a
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	JAP_neayoi_a0enoaaaa={
+		name=JAP_neayoi_a0enoaaaa
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	JAP_oe0ine_0iaiioi={
+		name=JAP_oe0ine_0iaiioi
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	JAP_hirohito_gay={
+		name=Japan_Hirohito_kr
+		portraits={
+			civilian={
+				large="GFX_Portrait_Japan_Hirohito_kr"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

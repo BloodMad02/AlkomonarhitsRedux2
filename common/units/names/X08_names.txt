@@ -1,0 +1,58 @@
+﻿X08 = {
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Battlecruiser" }
+		unique = {
+			"Ïðàãà" "Áðíî" "Îñòðàâà" "Áðàòèñëàâà" "Êîøèöå" 
+		}
+	}
+
+	battleship = {
+		prefix = ""
+		generic = { "Battleship" }
+		unique = {
+			"ßí Ãóñ" "Êàðë IV" "Ïðîêîï Âåëèêèé" "Àíòîí Áåðíîëàê" "Ëþäîâèò Øòóð" 
+		}
+	}
+
+	carrier = {
+		prefix = ""
+		generic = { "Carrier" }
+		unique = {
+			"Ïåòð Áðàíäëü" "Âàöëàâ Õîëëàð" "Èîãàíí ßí" "Ìàéñòåð êîøèöêåãî îëüòàðà" "Éîçåô ×àó÷èê" 
+		}
+	}
+
+	destroyer = {
+		prefix = ""
+		generic = { "Destroyer" }
+		unique = {
+			"Æèçåðà" "Ìåòóæå" "Ìîðàâà" "Ãðîí" "Áîäðîã" 
+		}
+	}
+
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Heavy Cruiser" }
+		unique = {
+			"Ìèëåøîâêà" "Ëîâîñ" "Õàçìáðóê" "Áåñêèäîê" "Ãåðëàõîâñêèé Øòèò" 
+		}
+	}
+
+	light_cruiser = {
+		prefix = ""
+		generic = { "Light Cruiser" }
+		unique = {
+			"Ïðàæñêèé ãðàä" "Âûøåãðàä" "Çáðàñëàâ" "Áîéíèöêèé çìîê" "Áðàòèñëàâñêèé ãðàä" 
+		}
+	}
+
+	submarine = {
+		prefix = ""
+		generic = { "Submarine" }
+		unique = {
+			"ßí Äèñìàñ Çåëåíêà" "Ñèìîí Áðèêñè" "Ôðàíòèøåê Òóìà" "ßí Øèìáðàöêèé" "Çàõàðèàø Çàðåâóòèóñ" 
+		}
+	}
+
+}

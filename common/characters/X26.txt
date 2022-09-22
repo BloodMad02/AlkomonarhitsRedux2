@@ -1,0 +1,64 @@
+characters={
+	X26_ae0aeeoi0aaaaa_dai={
+		name=X26_ae0aeeoi0aaaaa_dai
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X26_iaaiaiaaaaaaa_aaaa={
+		name=X26_iaaiaiaaaaaaa_aaaa
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X26_aiieiaoaaaa_aaaa={
+		name=X26_aiieiaoaaaa_aaaa
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X26_ae0aeeoi0aaaaa_aan={
+		name=X26_ae0aeeoi0aaaaa_aan
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	X26_daia0aia0aaaaa_aan={
+		name=X26_daia0aia0aaaaa_aan
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_PRF_Singhji.tga"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=419
+	name="STATE_419"
+	resources={
+		oil=2.000
+		steel=1.000
+	}
+
+	history={
+		owner = PER
+		victory_points = {
+			4959 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			7982 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		1889 2070 4891 4959 7982 10782 12895 13082 
+	}
+	manpower=758404
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

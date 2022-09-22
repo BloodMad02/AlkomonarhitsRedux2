@@ -1,0 +1,32 @@
+
+state={
+	id=429
+	name="STATE_429"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = POL
+		victory_points = {
+			9427 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = POL
+	}
+
+	provinces={
+		9427 
+	}
+	manpower=1255708
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

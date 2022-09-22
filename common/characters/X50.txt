@@ -1,0 +1,16 @@
+characters={
+	X50_i0anoa_ae_naaiey_ainoa={
+		name=X50_i0anoa_ae_naaiey_ainoa
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/portrait_ita_ferruccio_parri.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

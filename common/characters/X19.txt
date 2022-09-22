@@ -1,0 +1,64 @@
+characters={
+	X19_0aaeeaan_iaina0a={
+		name=X19_0aaeeaan_iaina0a
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X19_aoa0aoneiao_aaaoaea={
+		name=X19_aoa0aoneiao_aaaoaea
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X19_aoa0aoneiao_ia0ia0={
+		name=X19_aoa0aoneiao_ia0ia0
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X19_oaee0aoae_iaina0a={
+		name=X19_oaee0aoae_iaina0a
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X19_aoa0aoneiao_ia0ia0_1={
+		name=X19_aoa0aoneiao_ia0ia0_1
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_Madras_C_Rajagopalachari.tga"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

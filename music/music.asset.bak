@@ -1,0 +1,7 @@
+
+music = {
+	name = "NecoArk"
+	file = "NecoArk.ogg"
+	volume = 0.65
+}
+

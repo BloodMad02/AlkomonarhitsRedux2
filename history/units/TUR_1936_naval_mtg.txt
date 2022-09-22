@@ -1,0 +1,45 @@
+units = {
+	fleet = {
+		name = "3. ýñêàäðà"
+		naval_base = 979
+		task_force = {
+			name = "3. ýñêàäðà"
+			location = 979
+			ship = { name = "Ñòàìáóë" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ñòàìáóë 2" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Áóðñà" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Èçìèð" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Áóðñà 2" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ñòàìáóë 3" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Èçìèð 2" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Áóðñà 3" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ñòàìáóë 4" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Áóðñà 4" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Áóðñà 5" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Ìóàâàíåò-è-Ìèëëèå" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Êîäæàòåïå" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Àäàòåïå" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Àáäóë-Ãàìèä" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ìåäæèäèå" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ìóêàääåì-è-Õàéèð" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ìåõìåä Ñåëèì" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Áåðêåôñàí" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Òàéÿð" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ëóòô-è-Õóìàþí" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ñàìñóí" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = TUR version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "TUR"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

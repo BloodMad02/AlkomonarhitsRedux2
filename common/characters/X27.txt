@@ -1,0 +1,52 @@
+characters={
+	X27_eao0_aaoaao0={
+		name=X27_eao0_aaoaao0
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X27_aaiaa_aaoaao0={
+		name=X27_aaiaa_aaoaao0
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	X27_aooia_aoeeeii={
+		name=X27_aooia_aoeeeii
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X27_ieoae_aoeeeii={
+		name=X27_ieoae_aoeeeii
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_PRF_Maharaja_Ranbir_Singh.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,153 @@
+﻿converted_war_strategies_SWI = {
+	enable = {
+		tag = SWI
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 243
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 125
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 93
+	}
+	ai_strategy = {
+		type = conquer
+		id = "AUS"
+		value = 87
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CHL"
+		value = 40
+	}
+	ai_strategy = {
+		type = conquer
+		id = "PRU"
+		value = 24
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 16
+	}
+}
+
+converted_diplo_strategies_SWI = {
+	enable = {
+		tag = SWI
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "AUS"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 385
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 299
+	}
+	ai_strategy = {
+		type = contain
+		id = "FRA"
+		value = 238
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 224
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 92
+	}
+	ai_strategy = {
+		type = contain
+		id = "HOL"
+		value = 92
+	}
+	ai_strategy = {
+		type = contain
+		id = "SPR"
+		value = 90
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 197
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "AUS"
+		value = 126
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 95
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHL"
+		value = 40
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PRU"
+		value = 24
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 5
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SCA"
+		value = 68
+	}
+	ai_strategy = {
+		type = alliance
+		id = "UKR"
+		value = 60
+	}
+	ai_strategy = {
+		type = alliance
+		id = "POR"
+		value = 57
+	}
+	ai_strategy = {
+		type = protect
+		id = "CAT"
+		value = 20
+	}
+}

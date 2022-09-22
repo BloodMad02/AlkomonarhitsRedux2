@@ -1,0 +1,32 @@
+
+state={
+	id=444
+	name="STATE_444"
+
+	history={
+		owner = X52
+		victory_points = {
+			2180 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			12971 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = X52
+	}
+
+	provinces={
+		2180 5155 12950 12971 
+	}
+	manpower=2001784
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

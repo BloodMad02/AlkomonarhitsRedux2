@@ -1,0 +1,76 @@
+characters={
+	X10_aee_ao0e_eiaao={
+		name=X10_aee_ao0e_eiaao
+		corps_commander={
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X10_aiaai_naaeo={
+		name=X10_aiaai_naaeo
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X10_ae0aeia_eiaao={
+		name=X10_ae0aeia_eiaao
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X10_iaa_eiao={
+		name=X10_iaa_eiao
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X10_aaeai_oai_ia_aeeaai={
+		name=X10_aaeai_oai_ia_aeeaai
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X10_aeu_ao0e_naaeo={
+		name=X10_aeu_ao0e_naaeo
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

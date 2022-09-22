@@ -1,0 +1,16 @@
+characters={
+	X52_naaanouyi_aa_neeaa={
+		name=X52_naaanouyi_aa_neeaa
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/Portrait_Argentina_Agustin_Pedro_Justo.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

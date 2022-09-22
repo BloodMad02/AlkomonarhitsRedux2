@@ -1,0 +1,36 @@
+
+state={
+	id=36
+	name="STATE_36"
+	resources={
+		chromium=11.000
+	}
+
+	history={
+		owner = BUL
+		victory_points = {
+			11818 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			11818 = {
+				naval_base = 2
+			}
+			air_base = 1
+
+		}
+		add_core_of = BUL
+		add_claim_by = GRE
+	}
+
+	provinces={
+		895 3526 3936 6990 9791 9930 10163 11774 11818 11905 
+	}
+	manpower=1002208
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

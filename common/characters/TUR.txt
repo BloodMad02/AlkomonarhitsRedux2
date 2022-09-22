@@ -1,0 +1,76 @@
+characters={
+	TUR_eacei_aae={
+		name=TUR_eacei_aae
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	TUR_ioooa0_aae={
+		name=TUR_ioooa0_aae
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	TUR_ioooa0_iaoa={
+		name=TUR_ioooa0_iaoa
+		corps_commander={
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	TUR_oae0oeea_iaoa={
+		name=TUR_oae0oeea_iaoa
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=5
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	TUR_ieooao_aae={
+		name=TUR_ieooao_aae
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	TUR_oaoec_aae={
+		name=TUR_oaoec_aae
+		portraits={
+			civilian={
+				large="gfx/leaders/TUR/Portrait_Turkey_Ismet_Inonu.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

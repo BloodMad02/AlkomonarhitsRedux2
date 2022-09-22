@@ -1,0 +1,37 @@
+units = {
+	fleet = {
+		name = "1. ýñêàäðà"
+		naval_base = 11000
+		task_force = {
+			name = "1. ýñêàäðà"
+			location = 11000
+			ship = { name = "Àëüìèðàíòå Êîíäåëëë" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "Àëüìèðàíòå Ëèí÷" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "Àêèëåñ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "Àíãàìîñ" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "×èïàíà" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHL } } }
+			ship = { name = "Êàñìà" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CHL } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "CHL"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "CHL"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

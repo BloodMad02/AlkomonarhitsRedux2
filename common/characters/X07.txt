@@ -1,0 +1,64 @@
+characters={
+	X07_eieaia0a_neiao={
+		name=X07_eieaia0a_neiao
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X07_ioa0ai_neiao={
+		name=X07_ioa0ai_neiao
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X07_aeaaae_neiao={
+		name=X07_aeaaae_neiao
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X07_ia0aeyi_neiao={
+		name=X07_ia0aeyi_neiao
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X07_aeoaaiao_neiao={
+		name=X07_aeoaaiao_neiao
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_Bengal_Lala_Lajpat_Rai.tga"
+			}
+		}
+		country_leader={
+			ideology=leninism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

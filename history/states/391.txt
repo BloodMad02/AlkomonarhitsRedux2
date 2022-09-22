@@ -1,0 +1,32 @@
+
+state={
+	id=391
+	name="STATE_391"
+
+	history={
+		owner = HOL
+		victory_points = {
+			6336 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			6336 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = HOL
+	}
+
+	provinces={
+		6286 6336 9309 9335 9403 11318 
+	}
+	manpower=673916
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

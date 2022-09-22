@@ -1,0 +1,40 @@
+characters={
+	MON_aianiiui_nooaaaoa0={
+		name=MON_aianiiui_nooaaaoa0
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MON_aaoy0ayiy_aaaiyi={
+		name=MON_aaoy0ayiy_aaaiyi
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MON_eoaeeae_aiaii={
+		name=MON_eoaeeae_aiaii
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
+			}
+		}
+		country_leader={
+			ideology=minarchism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

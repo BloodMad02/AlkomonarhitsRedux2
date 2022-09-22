@@ -1,0 +1,16 @@
+characters={
+	QUE_eoe_oeeeii_ea0ii={
+		name=QUE_eoe_oeeeii_ea0ii
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Portrait_Denmark_Erik_Scavenius.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

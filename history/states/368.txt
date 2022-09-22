@@ -1,0 +1,38 @@
+
+state={
+	id=368
+	name="STATE_368"
+	resources={
+		aluminium=10.000
+		chromium=3.000
+	}
+
+	history={
+		owner = AUS
+		victory_points = {
+			3924 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			6889 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = AUS
+		add_claim_by = ITA
+	}
+
+	provinces={
+		984 3868 3924 3943 3974 6889 9821 11816 
+	}
+	manpower=901444
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

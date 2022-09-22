@@ -1,0 +1,38 @@
+
+state={
+	id=135
+	name="STATE_135"
+	resources={
+		aluminium=1.000
+		rubber=7.000
+		tungsten=4.000
+	}
+
+	history={
+		owner = X40
+		victory_points = {
+			7402 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			7447 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = X31
+		add_core_of = X40
+	}
+
+	provinces={
+		1238 1321 7288 7391 7402 7447 10130 10274 12275 
+	}
+	manpower=5260548
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

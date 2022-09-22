@@ -1,0 +1,76 @@
+characters={
+	PER_oanai_aoca0aiiao0e={
+		name=PER_oanai_aoca0aiiao0e
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PER_iana0_ya_aei_ae0oi={
+		name=PER_iana0_ya_aei_ae0oi
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	PER_oaice_oe0ace={
+		name=PER_oaice_oe0ace
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	PER_oanai_oaoaee={
+		name=PER_oanai_oaoaee
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PER_oaice_aina0e={
+		name=PER_oaice_aina0e
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=5
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	PER_aa0aaei_ae0oi={
+		name=PER_aa0aaei_ae0oi
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabic_Persian/Portrait_KUR_Mahmud_Barzanji.tga"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

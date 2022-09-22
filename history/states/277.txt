@@ -1,0 +1,36 @@
+
+state={
+	id=277
+	name="STATE_277"
+	resources={
+		chromium=2.000
+		rubber=4.000
+		steel=10.000
+		tungsten=23.000
+	}
+
+	history={
+		owner = GXC
+		victory_points = {
+			7137 30 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 2
+			air_base = 7
+
+		}
+		add_core_of = GXC
+		add_claim_by = CHI
+	}
+
+	provinces={
+		1023 1172 1448 1469 1597 1625 4028 4077 4085 4121 4125 4134 4152 4177 4628 4656 7095 7137 7159 7168 7502 7650 9982 10039 10050 10377 10404 10431 10459 11918 12350 12378 12407 12436 
+	}
+	manpower=15862252
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

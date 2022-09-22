@@ -1,0 +1,32 @@
+
+state={
+	id=260
+	name="STATE_260"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			7161 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		1181 1950 2034 2073 2154 4941 6027 7161 10766 10858 11934 12783 12808 12847 
+	}
+	manpower=2050984
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

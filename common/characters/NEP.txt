@@ -1,0 +1,64 @@
+characters={
+	NEP_daiaoaei_daia={
+		name=NEP_daiaoaei_daia
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	NEP_aia0_neiao_ooaia={
+		name=NEP_aia0_neiao_ooaia
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	NEP_aoei_oaioa0_neiao={
+		name=NEP_aoei_oaioa0_neiao
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	NEP_aaaia_daia={
+		name=NEP_aaaia_daia
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	NEP_aaaia_ooaia={
+		name=NEP_aaaia_ooaia
+		portraits={
+			civilian={
+				large="gfx/leaders/NEP/portrait_nep_juddah_rana.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

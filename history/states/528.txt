@@ -1,0 +1,37 @@
+
+state={
+	id=528
+	name="STATE_528"
+	resources={
+		aluminium=4.000
+		rubber=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = SCA
+		victory_points = {
+			1951 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1951 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = SCA
+	}
+
+	provinces={
+		1951 12785 12843 13212 
+	}
+	manpower=494192
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

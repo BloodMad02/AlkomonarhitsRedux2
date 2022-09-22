@@ -1,0 +1,37 @@
+
+state={
+	id=80
+	name="STATE_80"
+	resources={
+		aluminium=49.000
+	}
+
+	history={
+		owner = X11
+		victory_points = {
+			8107 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 1
+			4982 = {
+				naval_base = 6
+			}
+			air_base = 7
+
+		}
+		add_core_of = X11
+		add_claim_by = VEN
+	}
+
+	provinces={
+		1928 4982 8107 10906 12716 12828 
+	}
+	manpower=4395976
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

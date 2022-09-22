@@ -1,0 +1,137 @@
+﻿capital = 121
+set_research_slots = 2
+
+oob = "PAK_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_south_asia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 88
+	democratic = 10
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BRA modifier = negative_10 }
+add_opinion_modifier = { target = BRM modifier = negative_20 }
+add_opinion_modifier = { target = CAM modifier = negative_20 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = ECU modifier = negative_10 }
+add_opinion_modifier = { target = EGY modifier = positive_10 }
+add_opinion_modifier = { target = ETH modifier = negative_20 }
+add_opinion_modifier = { target = GXC modifier = negative_20 }
+add_opinion_modifier = { target = JAP modifier = negative_20 }
+add_opinion_modifier = { target = KHI modifier = positive_10 }
+add_opinion_modifier = { target = KOR modifier = negative_20 }
+add_opinion_modifier = { target = KYR modifier = positive_10 }
+add_opinion_modifier = { target = LAO modifier = negative_20 }
+add_opinion_modifier = { target = MEX modifier = negative_10 }
+add_opinion_modifier = { target = MOR modifier = positive_10 }
+add_opinion_modifier = { target = PER modifier = negative_5 }
+add_opinion_modifier = { target = PRU modifier = negative_10 }
+add_opinion_modifier = { target = SCA modifier = negative_10 }
+add_opinion_modifier = { target = SIA modifier = negative_20 }
+add_opinion_modifier = { target = SPR modifier = negative_10 }
+add_opinion_modifier = { target = SWI modifier = negative_10 }
+add_opinion_modifier = { target = TUR modifier = positive_30 }
+add_opinion_modifier = { target = URG modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = negative_10 }
+add_opinion_modifier = { target = VEN modifier = negative_10 }
+add_opinion_modifier = { target = VIN modifier = negative_20 }
+add_opinion_modifier = { target = X19 modifier = positive_35 }
+add_opinion_modifier = { target = X25 modifier = negative_10 }
+add_opinion_modifier = { target = X27 modifier = positive_30 }
+add_opinion_modifier = { target = X29 modifier = positive_5 }
+add_opinion_modifier = { target = X30 modifier = positive_35 }
+add_opinion_modifier = { target = X32 modifier = negative_10 }
+add_opinion_modifier = { target = X34 modifier = negative_10 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_panjabi
+}
+
+recruit_character = PAK_iaaaa_aoeoaaeuy
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Êóíâàð"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PAK }
+	}
+
+	create_operative_leader = {
+		name = "Indira Ìàë"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PAK }
+	}
+
+	create_operative_leader = {
+		name = "Indira Ðàìãàðèòà"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { PAK }
+	}
+
+	create_operative_leader = {
+		name = "Øèð Íàëâà"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PAK }
+	}
+
+	create_operative_leader = {
+		name = "Êõàðàê Àõëóâàëüÿ"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { PAK }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

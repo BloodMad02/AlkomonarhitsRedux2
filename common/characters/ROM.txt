@@ -1,0 +1,64 @@
+characters={
+	ROM_eaiioei_0ieiaaneo={
+		name=ROM_eaiioei_0ieiaaneo
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ROM_eiinoaioei_oei0aneo={
+		name=ROM_eiinoaioei_oei0aneo
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ROM_aeaa_oei0aneo={
+		name=ROM_aeaa_oei0aneo
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ROM_a0oo0_oa0u0={
+		name=ROM_a0oo0_oa0u0
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	ROM_ieoae_ia0aa0aneo={
+		name=ROM_ieoae_ia0aa0aneo
+		portraits={
+			civilian={
+				large="gfx/leaders/ROM/Portrait_Romania_Ion_Antonescu.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

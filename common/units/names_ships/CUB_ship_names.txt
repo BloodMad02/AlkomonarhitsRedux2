@@ -1,0 +1,176 @@
+﻿CUB_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	prefix = ""
+	fallback_name = "Battleship BB-%d"
+
+	unique = {
+		"Àíòîíèî Ìàñåî" "Áàðòîëîìå Ìàñî" "Êàðëîñ äå Ñåñïåäåñ" "Êàðëîñ Ðîëîôô" "Ýðîýñ äå Êóáà" "Õîñå Ìàðòè" "Ìàêñèìî Ãîìåñ" "Ñàëüâàäîð Ñèñíåðîñ" "Ñåðàôèí Ñàí÷åñ" "Òîìàñ Ýñòðàäà" 
+	}
+}
+
+CUB_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	prefix = ""
+	fallback_name = "Battlecruiser BC-%d"
+
+	unique = {
+		"Áàêîíàî" "Áóýíàâèñòà" "Êàóòî" "Äèåãî Âåëàñêåñ" "Èñëà äå Ïèíîñ" "Ìàêñèìî" "Ñüåððà Êðèñòàëü" "Ñüåððà äåëü Ðîñàðèî" "Òîà" "Òóðêèíî" 
+	}
+}
+
+CUB_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	prefix = ""
+	fallback_name = "Heavy Cruiser CA-%d"
+
+	unique = {
+		"Àëèñèî" "Ýñòðåëëà äå ëîñ Ìàðåñ" "Ãóýððåðà" "Ñàí-Êàðëîñ" "Ñàí-Ôåðíàíäî" "Ñàí-Õóàí" "Ñàíòüÿãî" "Âàëåíòèÿ" "Âåíòóðà" "Âèêòîðèÿ" 
+	}
+}
+
+CUB_CLAA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CLAA
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = ""
+	fallback_name = "Light Cruiser CLAA-%d"
+
+	unique = {
+		"Àðãàìîíòå" "Àðàíüÿ" "Äèåñ äå Îêòóáðå" "Ãóàéìàðî" "Ãàâàíà" "Ìàòàíñàñ" "Ïèëàð äåëü Ðèî" "Òàðàíòóëà" "Âåéíòèêóàòðî äå Ôåáðåðî" "ßðà" 
+	}
+}
+
+CUB_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = ""
+	fallback_name = "Light Cruiser CL-%d"
+
+	unique = {
+		"Àðãàìîíòå" "Àðàíüÿ" "Äèåñ äå Îêòóáðå" "Ãóàéìàðî" "Ãàâàíà" "Ìàòàíñàñ" "Ïèëàð äåëü Ðèî" "Òàðàíòóëà" "Âåéíòèêóàòðî äå Ôåáðåðî" "ßðà" 
+	}
+}
+
+CUB_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = ""
+	fallback_name = "Carrier CVL-%d"
+
+	unique = {
+		"Êàìàãóýé" "Ñüåíôóýãîñ" "Ãóàíòàíàìî" "Õóïèòåð" "Ìàðòå" "Íåïòóíî" "Ïëóòîí" "Ñàíòà-Êëàðà" "Ñàíòüÿãî-äå-Êóáà" "Âóëêàíî" 
+	}
+}
+
+CUB_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = ""
+	fallback_name = "Carrier CV-%d"
+
+	unique = {
+		"Êàìàãóýé" "Ñüåíôóýãîñ" "Ãóàíòàíàìî" "Õóïèòåð" "Ìàðòå" "Íåïòóíî" "Ïëóòîí" "Ñàíòà-Êëàðà" "Ñàíòüÿãî-äå-Êóáà" "Âóëêàíî" 
+	}
+}
+
+CUB_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Destroyer DD-%d"
+
+	unique = {
+		"Êàðèáå" "Êóáà" "Ôëîðèäà" "Ãóàõèðî" "Èñëà Ôåðíàíäèíà" "Èñëà Õóàíà" "Õîñå Àíòîíèî Àïîíòå" "Õîÿ äåëü Êàðèáå" "Íèêîëàñ Ìîðàëåñ" "Ïàòðèÿ" 
+	}
+}
+
+CUB_DE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Destroyer Escort DE-%d"
+
+	unique = {
+		"Êàðèáå" "Êóáà" "Ôëîðèäà" "Ãóàõèðî" "Èñëà Ôåðíàíäèíà" "Èñëà Õóàíà" "Õîñå Àíòîíèî Àïîíòå" "Õîÿ äåëü Êàðèáå" "Íèêîëàñ Ìîðàëåñ" "Ïàòðèÿ" 
+	}
+}
+
+CUB_MINELAYERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Minelayer CM-%d"
+
+	unique = {
+		"Àðãàìîíòå" "Àðàíüÿ" "Äèåñ äå Îêòóáðå" "Ãóàéìàðî" "Ãàâàíà" "Ìàòàíñàñ" "Ïèëàð äåëü Ðèî" "Òàðàíòóëà" "Âåéíòèêóàòðî äå Ôåáðåðî" "ßðà" 
+	}
+}
+
+CUB_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { CUB }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = ""
+	fallback_name = "Submarine SS-%d"
+
+	unique = {
+		"Êàëèêñòî Ãàðñèÿ" "Êîíñòèòóñüîí" "Ôåëèêñ Âàðåëà" "Ãðèòî äå ßðà" "Èíäåïåíäåíñèÿ" "Õîàêèí Èíôàíòå" "Õîñå Ëåìóñ" "Õîñå Ýðåäèÿ" "Ëèáåðòàä" "Ðåïóáëèêà" 
+	}
+}
+

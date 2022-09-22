@@ -1,0 +1,35 @@
+
+state={
+	id=358
+	name="STATE_358"
+	resources={
+		aluminium=11.000
+		chromium=6.000
+		steel=1.000
+	}
+
+	history={
+		owner = AUS
+		victory_points = {
+			3696 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = AUS
+		add_claim_by = ROM
+	}
+
+	provinces={
+		646 662 696 713 746 3649 3696 6682 6697 9606 9640 9687 11592 11608 
+	}
+	manpower=1933080
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,76 @@
+characters={
+	SOV_a0eai0ee_aai0ia={
+		name=SOV_a0eai0ee_aai0ia
+		corps_commander={
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	SOV_iaenei_aoaaiiue={
+		name=SOV_iaenei_aoaaiiue
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SOV_eaa_iae0ania={
+		name=SOV_eaa_iae0ania
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SOV_ai0en_a0eoei={
+		name=SOV_ai0en_a0eoei
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SOV_iaenei_eaca0aa={
+		name=SOV_iaenei_eaca0aa
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	SOV_aaiiaaee_ceiei={
+		name=SOV_aaiiaaee_ceiei
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=350
+	name="STATE_350"
+	resources={
+		aluminium=1.000
+		steel=2.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = AUS
+		victory_points = {
+			673 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		671 673 688 3675 6678 6680 9633 9636 11618 11634 
+	}
+	manpower=1435820
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,64 @@
+characters={
+	X25_iao0on_aaoaa0o={
+		name=X25_iao0on_aaoaa0o
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	X25_ae0ee_e00aa0={
+		name=X25_ae0ee_e00aa0
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X25_aia0en_aa_ae0={
+		name=X25_aia0en_aa_ae0
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X25_na0ae_oen={
+		name=X25_na0ae_oen
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X25_daeyeoe_e00aa0={
+		name=X25_daeyeoe_e00aa0
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Winston_Churchill.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

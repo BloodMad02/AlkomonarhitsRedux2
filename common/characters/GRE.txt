@@ -1,0 +1,76 @@
+characters={
+	GRE_iaea0ein_ioiiaein={
+		name=GRE_iaea0ein_ioiiaein
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GRE_iaea0ein_oan_yeeaaan={
+		name=GRE_iaea0ein_oan_yeeaaan
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GRE_eeean_ieaiooan={
+		name=GRE_eeean_ieaiooan
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GRE_iao0in_eaoneie0in={
+		name=GRE_iao0in_eaoneie0in
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GRE_aeaenaia0in_noaeeiioein={
+		name=GRE_aeaenaia0in_noaeeiioein
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	GRE_nioe0en_aiiaoan={
+		name=GRE_nioe0en_aiiaoan
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/portrait_ita_ferruccio_parri.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

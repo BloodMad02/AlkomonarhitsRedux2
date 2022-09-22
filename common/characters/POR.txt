@@ -1,0 +1,76 @@
+characters={
+	POR_aioiiei_aa_a0aaaiaa={
+		name=POR_aioiiei_aa_a0aaaiaa
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POR_ynoaaai_oaaa0an={
+		name=POR_ynoaaai_oaaa0an
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POR_ianeoaeu_eiyeuei={
+		name=POR_ianeoaeu_eiyeuei
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POR_oa0iaiai_aa_nioca={
+		name=POR_oa0iaiai_aa_nioca
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POR_aoa0oa_eaiaei={
+		name=POR_aoa0oa_eaiaei
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=2
+			legacy_id=0
+		}
+	}
+
+	POR_o0aioenei_oaaua0_ioeeai={
+		name=POR_o0aioenei_oaaua0_ioeeai
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

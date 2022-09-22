@@ -1,0 +1,76 @@
+characters={
+	BOL_aeaai_nioiiaei0={
+		name=BOL_aeaai_nioiiaei0
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BOL_eniayeu_nioiiaei0={
+		name=BOL_eniayeu_nioiiaei0
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BOL_ia0eaii_aaeuca={
+		name=BOL_ia0eaii_aaeuca
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BOL_ieaaeu_aeaiei={
+		name=BOL_ieaaeu_aeaiei
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BOL_eaianei_eaeuai={
+		name=BOL_eaianei_eaeuai
+		navy_leader={
+			skill=4
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=6
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	BOL_aa0oieiiu0_caea0oo={
+		name=BOL_aa0oieiiu0_caea0oo
+		portraits={
+			civilian={
+				large="gfx/leaders/Hispanic/Portrait_Ecuador_Alberto_Gallo.tga"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

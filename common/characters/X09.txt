@@ -1,0 +1,52 @@
+characters={
+	X09_aaaeee_daaaa_aoiaa={
+		name=X09_aaaeee_daaaa_aoiaa
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	X09_aeu_ioeaiiae_daaaa_aoiaa={
+		name=X09_aeu_ioeaiiae_daaaa_aoiaa
+		corps_commander={
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	X09_deaeyo_deaeyo_oao={
+		name=X09_deaeyo_deaeyo_oao
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X09_ioaaeaei_aaacai={
+		name=X09_ioaaeaei_aaacai
+		portraits={
+			civilian={
+				large="gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

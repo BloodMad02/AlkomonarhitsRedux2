@@ -1,0 +1,33 @@
+
+state={
+	id=284
+	name="STATE_284"
+
+	history={
+		owner = ITA
+		victory_points = {
+			3838 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			3838 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = FRA
+		add_claim_by = ITA
+	}
+
+	provinces={
+		3838 9851 11804 
+	}
+	manpower=334208
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,52 @@
+characters={
+	AFG_noeaeiai_oai={
+		name=AFG_noeaeiai_oai
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	AFG_noeaeiai_oai_1={
+		name=AFG_noeaeiai_oai_1
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	AFG_oaaea_aeeao_oai={
+		name=AFG_oaaea_aeeao_oai
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	AFG_ioooaiaa_oai={
+		name=AFG_ioooaiaa_oai
+		portraits={
+			civilian={
+				large="gfx/leaders/JOR/Portrait_Arabia_Generic_democratic1.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

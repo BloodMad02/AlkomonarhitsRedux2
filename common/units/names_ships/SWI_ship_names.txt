@@ -1,0 +1,176 @@
+﻿SWI_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { SWI }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	prefix = ""
+	fallback_name = "Battleship BB-%d"
+
+	unique = {
+		"Âåðíåð Øòàóôôàõåð" "Âàëüòåð Ôþðñò" "Àðíîëüä ôîí Ìåëüõòàëü" "Âèëüãåëüì Òåëëü" 
+	}
+}
+
+SWI_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { SWI }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	prefix = ""
+	fallback_name = "Battlecruiser BC-%d"
+
+	unique = {
+		"Àðãàó" "Áàäåí" "Áàçåëü" "Áåëëèíöîíà" "Áåðí" "Ôðàéáóðã" "Ôðèêòàëü" "Ëåìàí" "Ëèíò" "Ëóãàíî" "Ëþöåðí" "Îáåðëàíä" "Ðåòèåí" "Ñåíòèñ" "Øàôôõàóçåí" "Ñîëîòóðí" "Òóðãàó" "Âàëüäøòàòò" "Âàëëèñ" "Öþðèõ" 
+	}
+}
+
+SWI_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { SWI }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	prefix = ""
+	fallback_name = "Heavy Cruiser CA-%d"
+
+	unique = {
+		"Àðãàó" "Áàäåí" "Áàçåëü" "Áåëëèíöîíà" "Áåðí" "Ôðàéáóðã" "Ôðèêòàëü" "Ëåìàí" "Ëèíò" "Ëóãàíî" "Ëþöåðí" "Îáåðëàíä" "Ðåòèåí" "Ñåíòèñ" "Øàôôõàóçåí" "Ñîëîòóðí" "Òóðãàó" "Âàëüäøòàòò" "Âàëëèñ" "Öþðèõ" 
+	}
+}
+
+SWI_CLAA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CLAA
+
+	for_countries = { SWI }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = ""
+	fallback_name = "Light Cruiser CLAA-%d"
+
+	unique = {
+		"Àðãàó" "Áàäåí" "Áàçåëü" "Áåëëèíöîíà" "Áåðí" "Ôðàéáóðã" "Ôðèêòàëü" "Ëåìàí" "Ëèíò" "Ëóãàíî" "Ëþöåðí" "Îáåðëàíä" "Ðåòèåí" "Ñåíòèñ" "Øàôôõàóçåí" "Ñîëîòóðí" "Òóðãàó" "Âàëüäøòàòò" "Âàëëèñ" "Öþðèõ" 
+	}
+}
+
+SWI_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { SWI }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = ""
+	fallback_name = "Light Cruiser CL-%d"
+
+	unique = {
+		"Àðãàó" "Áàäåí" "Áàçåëü" "Áåëëèíöîíà" "Áåðí" "Ôðàéáóðã" "Ôðèêòàëü" "Ëåìàí" "Ëèíò" "Ëóãàíî" "Ëþöåðí" "Îáåðëàíä" "Ðåòèåí" "Ñåíòèñ" "Øàôôõàóçåí" "Ñîëîòóðí" "Òóðãàó" "Âàëüäøòàòò" "Âàëëèñ" "Öþðèõ" 
+	}
+}
+
+SWI_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { SWI }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = ""
+	fallback_name = "Carrier CVL-%d"
+
+	unique = {
+		"Àðãàó" "Áàäåí" "Áàçåëü" "Áåëëèíöîíà" "Áåðí" "Ôðàéáóðã" "Ôðèêòàëü" "Ëåìàí" "Ëèíò" "Ëóãàíî" "Ëþöåðí" "Îáåðëàíä" "Ðåòèåí" "Ñåíòèñ" "Øàôôõàóçåí" "Ñîëîòóðí" "Òóðãàó" "Âàëüäøòàòò" "Âàëëèñ" "Öþðèõ" 
+	}
+}
+
+SWI_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { SWI }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = ""
+	fallback_name = "Carrier CV-%d"
+
+	unique = {
+		"Àðãàó" "Áàäåí" "Áàçåëü" "Áåëëèíöîíà" "Áåðí" "Ôðàéáóðã" "Ôðèêòàëü" "Ëåìàí" "Ëèíò" "Ëóãàíî" "Ëþöåðí" "Îáåðëàíä" "Ðåòèåí" "Ñåíòèñ" "Øàôôõàóçåí" "Ñîëîòóðí" "Òóðãàó" "Âàëüäøòàòò" "Âàëëèñ" "Öþðèõ" 
+	}
+}
+
+SWI_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { SWI }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Destroyer DD-%d"
+
+	unique = {
+		"Àðãàó" "Áàäåí" "Áàçåëü" "Áåëëèíöîíà" "Áåðí" "Ôðàéáóðã" "Ôðèêòàëü" "Ëåìàí" "Ëèíò" "Ëóãàíî" "Ëþöåðí" "Îáåðëàíä" "Ðåòèåí" "Ñåíòèñ" "Øàôôõàóçåí" "Ñîëîòóðí" "Òóðãàó" "Âàëüäøòàòò" "Âàëëèñ" "Öþðèõ" 
+	}
+}
+
+SWI_DE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { SWI }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Destroyer Escort DE-%d"
+
+	unique = {
+		"Àðãàó" "Áàäåí" "Áàçåëü" "Áåëëèíöîíà" "Áåðí" "Ôðàéáóðã" "Ôðèêòàëü" "Ëåìàí" "Ëèíò" "Ëóãàíî" "Ëþöåðí" "Îáåðëàíä" "Ðåòèåí" "Ñåíòèñ" "Øàôôõàóçåí" "Ñîëîòóðí" "Òóðãàó" "Âàëüäøòàòò" "Âàëëèñ" "Öþðèõ" 
+	}
+}
+
+SWI_MINELAYERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { SWI }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Minelayer CM-%d"
+
+	unique = {
+		"Àðãàó" "Áàäåí" "Áàçåëü" "Áåëëèíöîíà" "Áåðí" "Ôðàéáóðã" "Ôðèêòàëü" "Ëåìàí" "Ëèíò" "Ëóãàíî" "Ëþöåðí" "Îáåðëàíä" "Ðåòèåí" "Ñåíòèñ" "Øàôôõàóçåí" "Ñîëîòóðí" "Òóðãàó" "Âàëüäøòàòò" "Âàëëèñ" "Öþðèõ" 
+	}
+}
+
+SWI_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { SWI }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = ""
+	fallback_name = "Submarine SS-%d"
+
+	unique = {
+		"Àðãàó" "Áàäåí" "Áàçåëü" "Áåëëèíöîíà" "Áåðí" "Ôðàéáóðã" "Ôðèêòàëü" "Ëåìàí" "Ëèíò" "Ëóãàíî" "Ëþöåðí" "Îáåðëàíä" "Ðåòèåí" "Ñåíòèñ" "Øàôôõàóçåí" "Ñîëîòóðí" "Òóðãàó" "Âàëüäøòàòò" "Âàëëèñ" "Öþðèõ" 
+	}
+}
+

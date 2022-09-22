@@ -1,0 +1,41 @@
+
+state={
+	id=51
+	name="STATE_51"
+
+	history={
+		owner = CHI
+		victory_points = {
+			7459 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+			arms_factory = 3
+			air_base = 3
+
+		}
+		add_core_of = CHI
+		GXC = {
+			set_province_controller = 4144
+			set_province_controller = 4158
+			set_province_controller = 4606
+			set_province_controller = 7540
+			set_province_controller = 9937
+			set_province_controller = 9958
+			set_province_controller = 10364
+			set_province_controller = 10434
+			set_province_controller = 10446
+			set_province_controller = 12426
+		}
+	}
+
+	provinces={
+		1004 1139 1603 4114 4144 4158 4519 4547 4606 6932 7074 7459 7508 7540 7568 7656 9937 9958 10364 10434 10446 11931 12012 12426 
+	}
+	manpower=22998232
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

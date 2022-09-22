@@ -1,0 +1,76 @@
+characters={
+	ARG_naeuaaai0_oaoan={
+		name=ARG_naeuaaai0_oaoan
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ARG_iao0eoei_aaac={
+		name=ARG_iao0eoei_aaac
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ARG_iaioyeu_diea={
+		name=ARG_iaioyeu_diea
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ARG_yieeeaii_eaaaeua0i={
+		name=ARG_yieeeaii_eaaaeua0i
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ARG_ieaaeu_aaeuea0ea={
+		name=ARG_ieaaeu_aaeuea0ea
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=2
+			legacy_id=0
+		}
+	}
+
+	ARG_ooai_iaioyeu_aa_aeuaa0={
+		name=ARG_ooai_iaioyeu_aa_aeuaa0
+		portraits={
+			civilian={
+				large="gfx/leaders/Hispanic/Portrait_Bolivia_Carlos_Quiroga.tga"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

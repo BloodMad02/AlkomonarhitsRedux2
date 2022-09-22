@@ -1,0 +1,76 @@
+characters={
+	X30_aoieai_aoeoaoe={
+		name=X30_aoieai_aoeoaoe
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X30_iane0_aoaooe={
+		name=X30_iane0_aoaooe
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X30_oaoaaa_aoeoaoe={
+		name=X30_oaoaaa_aoeoaoe
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X30_oaoaaa_aoeoaoe_1={
+		name=X30_oaoaaa_aoeoaoe_1
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X30_oaoaaa_daaaia0={
+		name=X30_oaoaaa_daaaia0
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X30_oaoaaa_aoo0aa0e={
+		name=X30_oaoaaa_aoo0aa0e
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_MYS_Kaka_Kalekar.tga"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

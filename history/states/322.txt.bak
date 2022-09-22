@@ -1,0 +1,23 @@
+
+state={
+	id=322
+	name="STATE_322"
+	resources={
+		steel=1.000
+	}
+	impassable = yes
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+	}
+
+	provinces={
+		1897 1962 7943 8035 10771 10779 10838 
+	}
+	manpower=393936
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

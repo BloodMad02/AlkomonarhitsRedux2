@@ -1,0 +1,36 @@
+
+state={
+	id=22
+	name="STATE_22"
+	resources={
+		aluminium=1.000
+		rubber=4.000
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			12853 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			12853 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		2035 2168 2214 5151 5220 8172 10874 10956 12853 12913 12933 12947 12999 
+	}
+	manpower=3738748
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

@@ -1,0 +1,16 @@
+characters={
+	X54_noai_a0aeaioaeui={
+		name=X54_noai_a0aeaioaeui
+		portraits={
+			civilian={
+				large="gfx/leaders/NOR/Portrait_Norway_Johan_Nygaardsvold.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

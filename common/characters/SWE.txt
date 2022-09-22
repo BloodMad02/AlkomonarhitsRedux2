@@ -1,0 +1,16 @@
+characters={
+	SWE_aonoaa_oeuia0={
+		name=SWE_aonoaa_oeuia0
+		portraits={
+			civilian={
+				large="gfx/leaders/FIN/Portrait_Finland_Kyosti_Kallio.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

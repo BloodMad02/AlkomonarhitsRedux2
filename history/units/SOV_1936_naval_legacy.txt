@@ -1,0 +1,48 @@
+units = {
+	fleet = {
+		name = "9. ýñêàäðà"
+		naval_base = 3151
+		task_force = {
+			name = "9. ýñêàäðà"
+			location = 3151
+			ship = { name = "×åñìà" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ïåòð Âåëèêèé" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ñèíîï" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ãàíãóò" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ãåîðãèé Ïîáåäîíîñåö" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Äâåíàäöàòü Àïîñòîëîâ" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Åêàòåðèíà II" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Íàâàðèí" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Àäìèðàë Íàõèìîâ" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Àäìèðàë Êîðíèëîâ" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Àäìèðàë Íàõèìîâ 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ðþðèê" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Âèòÿçü" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ãðîìîáîé" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ðûíäà" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ïàìÿòü Àçîâà" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SOV } } }
+			ship = { name = "Ñâåòëàíà" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SOV } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "SOV"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "SOV"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

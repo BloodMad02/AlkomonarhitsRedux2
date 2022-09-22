@@ -1,0 +1,64 @@
+characters={
+	X22_ioeaeane_aiaaey0={
+		name=X22_ioeaeane_aiaaey0
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X22_aeaaaaea_daey={
+		name=X22_aeaaaaea_daey
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X22_aeoioaa0aoaia_aaeeaea={
+		name=X22_aeoioaa0aoaia_aaeeaea
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X22_aeoioaa0aoaia_aeae={
+		name=X22_aeoioaa0aoaia_aeae
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X22_aaaaeea_aaeeaea={
+		name=X22_aaaaeea_aaeeaea
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_BHC_Chandra_Bose.tga"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

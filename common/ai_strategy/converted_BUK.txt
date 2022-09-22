@@ -1,0 +1,153 @@
+﻿converted_war_strategies_BUK = {
+	enable = {
+		tag = BUK
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "AFG"
+		value = 269
+	}
+	ai_strategy = {
+		type = conquer
+		id = "KYR"
+		value = 238
+	}
+	ai_strategy = {
+		type = conquer
+		id = "KHI"
+		value = 144
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 51
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 39
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ROM"
+		value = 6
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SCA"
+		value = 3
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SER"
+		value = 3
+	}
+}
+
+converted_diplo_strategies_BUK = {
+	enable = {
+		tag = BUK
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "KHI"
+		value = 179
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 168
+	}
+	ai_strategy = {
+		type = contain
+		id = "KYR"
+		value = 162
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 103
+	}
+	ai_strategy = {
+		type = contain
+		id = "PER"
+		value = 77
+	}
+	ai_strategy = {
+		type = contain
+		id = "AFG"
+		value = 76
+	}
+	ai_strategy = {
+		type = contain
+		id = "AUS"
+		value = 69
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "KYR"
+		value = 355
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "KHI"
+		value = 300
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "AFG"
+		value = 263
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PER"
+		value = 135
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 66
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 14
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X27"
+		value = 25
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "KYR"
+		value = 233
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "AFG"
+		value = 187
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "KHI"
+		value = 100
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X00"
+		value = 60
+	}
+}

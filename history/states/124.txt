@@ -1,0 +1,32 @@
+
+state={
+	id=124
+	name="STATE_124"
+
+	history={
+		owner = X40
+		victory_points = {
+			12251 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			10321 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = X40
+	}
+
+	provinces={
+		10321 12251 
+	}
+	manpower=64084
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

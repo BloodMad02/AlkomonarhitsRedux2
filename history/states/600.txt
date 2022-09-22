@@ -1,0 +1,36 @@
+
+state={
+	id=600
+	name="STATE_600"
+	resources={
+		oil=5.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = URG
+		victory_points = {
+			7500 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			10515 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = ARG
+	}
+
+	provinces={
+		1449 2172 5163 5213 7500 8169 10515 10943 12453 13000 
+	}
+	manpower=3189380
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

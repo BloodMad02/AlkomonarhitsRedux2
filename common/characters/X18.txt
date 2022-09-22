@@ -1,0 +1,64 @@
+characters={
+	X18_aaaaaiaea_oeaaia={
+		name=X18_aaaaaiaea_oeaaia
+		corps_commander={
+			skill=4
+			attack_skill=4
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	X18_aoaaaaio_aoaooe={
+		name=X18_aoaaaaio_aoaooe
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X18_na0aa0_aa0eooa0_neiao={
+		name=X18_na0aa0_aa0eooa0_neiao
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X18_iaeee_aoaooe={
+		name=X18_iaeee_aoaooe
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X18_oaeyo_aa0eooa0_neiao={
+		name=X18_oaeyo_aa0eooa0_neiao
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_BHC_Nirmal_Kumar_Bose.tga"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

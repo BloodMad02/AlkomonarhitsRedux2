@@ -1,0 +1,16 @@
+characters={
+	HAW_oeiao_eaeaiea={
+		name=HAW_oeiao_eaeaiea
+		portraits={
+			civilian={
+				large="gfx/leaders/Aborigine_Polynesia/Portrait_HAW_David_Kawananakoa.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

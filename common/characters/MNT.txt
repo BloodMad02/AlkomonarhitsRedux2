@@ -1,0 +1,64 @@
+characters={
+	MNT_ieoaeei_iiaae={
+		name=MNT_ieoaeei_iiaae
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MNT_ieia0aa_ceaeiae0={
+		name=MNT_ieia0aa_ceaeiae0
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	MNT_ieeiea_oaaaeee0={
+		name=MNT_ieeiea_oaaaeee0
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MNT_aaeuei_ianean={
+		name=MNT_aaeuei_ianean
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MNT_ci0ai_ceaeiae0={
+		name=MNT_ci0ai_ceaeiae0
+		portraits={
+			civilian={
+				large="gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

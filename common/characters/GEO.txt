@@ -1,0 +1,40 @@
+characters={
+	GEO_ioa0_oaaeaca={
+		name=GEO_ioa0_oaaeaca
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GEO_aeaaeie0_aaoace={
+		name=GEO_aeaaeie0_aaoace
+		navy_leader={
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=5
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	GEO_aia0ey_oeioaaca={
+		name=GEO_aia0ey_oeioaaca
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

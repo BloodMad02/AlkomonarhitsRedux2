@@ -1,0 +1,36 @@
+
+state={
+	id=168
+	name="STATE_168"
+	resources={
+		aluminium=4.000
+		rubber=1.000
+	}
+
+	history={
+		owner = X41
+		victory_points = {
+			12858 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12858 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X41
+	}
+
+	provinces={
+		1909 4957 5039 8008 12802 12858 
+	}
+	manpower=1111572
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

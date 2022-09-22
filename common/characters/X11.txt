@@ -1,0 +1,76 @@
+characters={
+	X11_aaioo0oa_eannaeu={
+		name=X11_aaioo0oa_eannaeu
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X11_aai0aa_eannaeu={
+		name=X11_aai0aa_eannaeu
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X11_oeinoii_aiaaa0a={
+		name=X11_oeinoii_aiaaa0a
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X11_eieaee_diaeinii={
+		name=X11_eieaee_diaeinii
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X11_daeioi0a_0aiaa0n={
+		name=X11_daeioi0a_0aiaa0n
+		navy_leader={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X11_y0ee_aoaean={
+		name=X11_y0ee_aoaean
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/Portrait_Africa_Generic_new_1.tga"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

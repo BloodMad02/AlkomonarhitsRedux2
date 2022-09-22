@@ -1,0 +1,58 @@
+﻿X30 = {
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Battlecruiser" }
+		unique = {
+			"Èøàþ" "Íàñèð" "Äæàâåä" 
+		}
+	}
+
+	battleship = {
+		prefix = ""
+		generic = { "Battleship" }
+		unique = {
+			"Òàëüïóð" "Ôàòõàëè Õàí" "Ãóëàì Àëè Õàí" "Êàðàì Àëè Õàí" "Íóð Ìîõàììåä Õàí" 
+		}
+	}
+
+	carrier = {
+		prefix = ""
+		generic = { "Carrier" }
+		unique = {
+			"Àçõàð" "Ôàòåõ" "Íèòèí" 
+		}
+	}
+
+	destroyer = {
+		prefix = ""
+		generic = { "Destroyer" }
+		unique = {
+			"Íàðàéí" "Àêáàð" "Àìèä" "Ôàðäèí" "Øàõíàâàç" 
+		}
+	}
+
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Heavy Cruiser" }
+		unique = {
+			"Ñèíäõ" "Òàòòà" "Õàéäàðàáàä" "Õóäàáàä" 
+		}
+	}
+
+	light_cruiser = {
+		prefix = ""
+		generic = { "Light Cruiser" }
+		unique = {
+			"Àìàíàò" "Ìàíèê" "Ðàòàí" "Ðîàí" "Èêáàëü" "Êàëÿí" "Ñîíó" "Ñóíèë" 
+		}
+	}
+
+	submarine = {
+		prefix = ""
+		generic = { "Submarine" }
+		unique = {
+			"Àìàð" "Àíèë" "Ôåðîñ" "Äæàéäèï" "Ïðàòàï" "Íèðìàë" 
+		}
+	}
+
+}

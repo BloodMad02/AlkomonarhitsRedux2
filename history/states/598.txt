@@ -1,0 +1,33 @@
+
+state={
+	id=598
+	name="STATE_598"
+
+	history={
+		owner = UKR
+		victory_points = {
+			705 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			3686 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+	}
+
+	provinces={
+		705 3686 3722 6704 6724 9677 9680 9718 11649 
+	}
+	manpower=838448
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

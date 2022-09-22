@@ -1,0 +1,64 @@
+characters={
+	LIB_oiian_oieeaia={
+		name=LIB_oiian_oieeaia
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	LIB_0a0euc_nieo={
+		name=LIB_0a0euc_nieo
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	LIB_aeenii_ea0ie={
+		name=LIB_aeenii_ea0ie
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	LIB_eaoae_aaaenii={
+		name=LIB_eaoae_aaaenii
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	LIB_0a0euc_a0oen={
+		name=LIB_0a0euc_a0oen
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Portrait_LIB_edwin_barclay.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

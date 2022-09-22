@@ -1,0 +1,9 @@
+spriteTypes = {
+	#overwritten portraits
+	#originally implying a mod that has given no answer
+	#kept here as to remind me who to use to create new portraits
+  spriteType = {
+		name = "GFX_Portrait_Japan_Hirohito_kr"
+		texturefile = "gfx/leaders/Korean_Japan/portrait_JAP_hirohito.png"
+	}
+}

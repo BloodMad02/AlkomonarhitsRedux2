@@ -1,0 +1,33 @@
+
+state={
+	id=142
+	name="STATE_142"
+	resources={
+		chromium=4.000
+		steel=15.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			4822 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		1509 4822 5203 10668 10697 12419 
+	}
+	manpower=1016068
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

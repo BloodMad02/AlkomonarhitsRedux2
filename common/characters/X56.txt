@@ -1,0 +1,16 @@
+characters={
+	X56_iaa0i_aiinaean={
+		name=X56_iaa0i_aiinaean
+		portraits={
+			civilian={
+				large="gfx/leaders/Hispanic/Portrait_Bolivia_Franz_Tamayo.tga"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

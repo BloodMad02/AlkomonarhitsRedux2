@@ -1,0 +1,64 @@
+characters={
+	EGY_eacei_aae={
+		name=EGY_eacei_aae
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	EGY_deoao_iaoa={
+		name=EGY_deoao_iaoa
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	EGY_eacei_aae_1={
+		name=EGY_eacei_aae_1
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	EGY_iia0_aae={
+		name=EGY_iia0_aae
+		navy_leader={
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=4
+			legacy_id=0
+		}
+	}
+
+	EGY_daoo_aae={
+		name=EGY_daoo_aae
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabic_Persian/Portrait_KUR_Kamuran.tga"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

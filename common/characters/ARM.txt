@@ -1,0 +1,40 @@
+characters={
+	ARM_annaao0_naa0aciaeyi={
+		name=ARM_annaao0_naa0aciaeyi
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ARM_aeeai_aeaeiyi={
+		name=ARM_aeeai_aeaeiyi
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	ARM_aa0oai_iaoeiyi={
+		name=ARM_aa0oai_iaoeiyi
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

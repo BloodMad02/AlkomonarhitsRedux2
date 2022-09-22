@@ -1,0 +1,64 @@
+characters={
+	SCA_aaeuooa0_aa0iaaio={
+		name=SCA_aaeuooa0_aa0iaaio
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SCA_aaaono_oa0iaee={
+		name=SCA_aaaono_oa0iaee
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SCA_inea0_eiaaeuiai={
+		name=SCA_inea0_eiaaeuiai
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SCA_eioo_aa0iaaio={
+		name=SCA_eioo_aa0iaaio
+		navy_leader={
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	SCA_aea0ee_oii_ynnai={
+		name=SCA_aea0ee_oii_ynnai
+		portraits={
+			civilian={
+				large="gfx/leaders/FIN/Portrait_Finland_Risto_Heikki_Ryti.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,176 @@
+﻿X53_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { X53 }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	prefix = ""
+	fallback_name = "Battleship BB-%d"
+
+	unique = {
+		"Àôîíñî äå Àëüáóêåðêå" "Àíòîíèÿ Ðîäðèãåñ" "Äèåãî Êàî" "Äóàðòå Ïàøåêî Ïåðåéðà" "Äóàðòå äè Àëìåéäà" "Æîàî äà Íîâà" "Ëîïî Áàððèãà" "Ìåì Ìîíèç äè Ãàíäàðåé" "Ìóíèî Âåãàñ" "Íóíüî Àëüâàðåñ Ïåðåéðà" "Âàñêî äà Ãàìà" 
+	}
+}
+
+X53_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { X53 }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	prefix = ""
+	fallback_name = "Battlecruiser BC-%d"
+
+	unique = {
+		"Áåéðà" "Èáî" "Øàéìèòå" "Ëèìïîïî" "Ëóðèî" "Ñîõðàíèòü" "Àñîð" "Òàâèðà" "Ôàðî" "Ëàãîñ" 
+	}
+}
+
+X53_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { X53 }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	prefix = ""
+	fallback_name = "Heavy Cruiser CA-%d"
+
+	unique = {
+		"Ïðèíñèïå Ðåàë" "Ïðèíñèïå äó Áðàçèë" "Ðàéíà äå Ïîðòóãàë" "Àôîíñî äå Àëüáóêåðêå" "Ïðèñåñà äà Áåéðà" "Èíôàíòå Äîì Ïåäðî" "Ìåäóçà" "Áåëåì" "Ìàðèÿ Ïðèìåéðà" "Ñàí-Ñåáàñòüÿí" "Ñàíòî-Àíòîíèî" "Ïðèíñèïå Ðåãåíòå" "Òåðåñà" "Ãîëüôèíüî" "Àìàçîíèÿ" "Ïåðîëà" 
+	}
+}
+
+X53_CLAA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CLAA
+
+	for_countries = { X53 }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = ""
+	fallback_name = "Light Cruiser CLAA-%d"
+
+	unique = {
+		"Áàðòîëîìåó Äèàø" "Ýñòåôàíèÿ" "Äóêå äè Òåðñåéðà" "Ñà-äà-Áàíäåéðà" "Ðàéíüÿ äè Ïîðòóãàë" "Ìèíäåëî" 
+	}
+}
+
+X53_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { X53 }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = ""
+	fallback_name = "Light Cruiser CL-%d"
+
+	unique = {
+		"Áàðòîëîìåó Äèàø" "Ýñòåôàíèÿ" "Äóêå äè Òåðñåéðà" "Ñà-äà-Áàíäåéðà" "Ðàéíüÿ äè Ïîðòóãàë" "Ìèíäåëî" 
+	}
+}
+
+X53_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { X53 }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = ""
+	fallback_name = "Carrier CVL-%d"
+
+	unique = {
+		"Òàìåãà" "Ñàäî" "Ðèî Ëèìà" "Òåæó" "Äîðî" "Êóàíçà" "Áåíãî" "Ìàíäîâè" "Ðèî Àâå" "Ãâàäèàíà" "Òàâèðà" "Ôàðî" "Ëàãîñ" 
+	}
+}
+
+X53_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { X53 }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = ""
+	fallback_name = "Carrier CV-%d"
+
+	unique = {
+		"Òàìåãà" "Ñàäî" "Ðèî Ëèìà" "Òåæó" "Äîðî" "Êóàíçà" "Áåíãî" "Ìàíäîâè" "Ðèî Àâå" "Ãâàäèàíà" "Òàâèðà" "Ôàðî" "Ëàãîñ" 
+	}
+}
+
+X53_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { X53 }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Destroyer DD-%d"
+
+	unique = {
+		"Äîì Êàðëîñ I" "Ñàí-Ãàáðèýëü" "Ñàí-Ðàôàýëü" "Àäàìàñòîð" "Ðàéíüÿ Ä. Àìåëèÿ" "Àëüìèðàíòå Ðåéñ" "Ðåïóáëèêà" "Ïåäðî Íóíüåñ" "Æèë Ýàííåñ" 
+	}
+}
+
+X53_DE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { X53 }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Destroyer Escort DE-%d"
+
+	unique = {
+		"Äîì Êàðëîñ I" "Ñàí-Ãàáðèýëü" "Ñàí-Ðàôàýëü" "Àäàìàñòîð" "Ðàéíüÿ Ä. Àìåëèÿ" "Àëüìèðàíòå Ðåéñ" "Ðåïóáëèêà" "Ïåäðî Íóíüåñ" "Æèë Ýàííåñ" 
+	}
+}
+
+X53_MINELAYERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { X53 }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Minelayer CM-%d"
+
+	unique = {
+		"Áàðòîëîìåó Äèàø" "Ýñòåôàíèÿ" "Äóêå äè Òåðñåéðà" "Ñà-äà-Áàíäåéðà" "Ðàéíüÿ äè Ïîðòóãàë" "Ìèíäåëî" 
+	}
+}
+
+X53_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { X53 }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = ""
+	fallback_name = "Submarine SS-%d"
+
+	unique = {
+		"Ôåíèêñ" "Àìàçîíà" "Ñèñíå" "Ìèíåðâà" "Íîñòðà Ñåíüîðà äå Ãðàñà" "Ïåðîëà" "Ïðèíñåñà Êàðëîòà" "Ïðèíñåñà" "Ïðèíñèïå äà Áåéðà" "Òðèñòàî" "Óëèññåñ" "Âåíþ" "Ãîëüôèíüî" "Ñàí-Æîàî Ïðèíñèïå" "Òåòèñ" "Àòèâà" "Äîì Ôåðíàíäî II" "Ïðèíñåñà äè Àáüåíà" "Àíäîðèíüÿ" "Ðåàë Ôîíñîð" "Áîà-Âåíòóðà" "Ñåðïåíòå" "Äèëèæåíò" "Ãàéâîòà" "Ðåàë Ôîíçà" "Áåíæàìèí" "Òðèòàî" 
+	}
+}
+

@@ -1,0 +1,64 @@
+characters={
+	POL_oaeeoeai_duac_nieaeu={
+		name=POL_oaeeoeai_duac_nieaeu
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POL_yaaa0a_dieinnianeee={
+		name=POL_yaaa0a_dieinnianeee
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POL_aieaneaa_ie0ineaaneee={
+		name=POL_aieaneaa_ie0ineaaneee
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POL_0i_iie0iiianeee={
+		name=POL_0i_iie0iiianeee
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POL_aeaaeneaa_iiiyoianeee={
+		name=POL_aeaaeneaa_iiiyoianeee
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/Portrait_POL_Boleslaw_Piasecki.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

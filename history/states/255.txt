@@ -1,0 +1,32 @@
+
+state={
+	id=255
+	name="STATE_255"
+
+	history={
+		owner = GER
+		victory_points = {
+			6389 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 0
+			6389 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		3231 6257 6389 9320 11331 
+	}
+	manpower=1175224
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}
